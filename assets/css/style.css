@@ -1,6 +1,6 @@
 
 body {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background-image: url("/assets/images/PokeWallpaper2.png");
     background-position: center;
@@ -18,12 +18,22 @@ header {
     background-color: rgba(0, 0, 255, 0.5);
     padding: 20px ;
     margin: 0 50px 0 0;
+    display: none;
 }
 
-.board {
-    width: 80px !important;
+#memory-game {
+    width: 200px !important;
     height: 100%;
     background-color: rgba(81, 255, 0, 0.5);
     padding: 20px ;
     margin: 0 0 0 50px;
+}
+
+.memory-card {
+    width: 80px !important;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.5);
+    padding: 20px ;
+    margin: 0 50px 0 0;
+    
 }

@@ -4,4 +4,26 @@ body {
     width: 100%;
     background-image: url("/assets/images/PokeWallpaper2.png");
     background-position: center;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+
+header {
+    margin: 15px 0 50px 0;
+}
+
+.score {
+    width: 80px !important;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.5);
+    padding: 20px ;
+    margin: 0 50px 0 0;
+}
+
+.board {
+    width: 80px !important;
+    height: 100%;
+    background-color: rgba(81, 255, 0, 0.5);
+    padding: 20px ;
+    margin: 0 0 0 50px;
 }

@@ -18,11 +18,12 @@ header {
     background-color: rgba(0, 0, 255, 0.5);
     padding: 20px ;
     margin: 0 50px 0 0;
-    display: none;
+    max-width: 20%;
+    /* display: none; */
 }
 
 #logo img {
-    width: 33%;
+    width: 80%;
 }
 
 img {

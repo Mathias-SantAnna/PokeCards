@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    margin: 15px 0 50px 0;
+    margin: 15px 0 20px 0;
 }
 
 .score {
@@ -30,15 +30,15 @@ img {
     width: 100px;
 }
 
-.memory-game {
+.board-game {
     border: 1px solid rgb(4, 70, 124);
     background: linear-gradient(to bottom, #5cf,#28e);
     border-radius: 1em;
     padding: 10px ;
     margin: 0 0 0 50px;
     /* Tutorial */
-    width: 950px;
-    height: 850px;
+    width: 1050px;
+    height: 750px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -52,9 +52,9 @@ img {
 } */
 
 .memory-card {
-    width: 15%;
-    height: 25%;
-    margin: 2px 8px ;
+    width: 14.5%;
+    height: 30%;
+    margin: 2px 10px ;
     position: relative;
     border: 2px solid deeppink;
     border-radius: 0.8em;

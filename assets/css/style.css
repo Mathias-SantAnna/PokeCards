@@ -21,7 +21,7 @@ header {
     display: none;
 }
 
-#memory-game {
+.memory-game {
     width: 200px !important;
     height: 100%;
     background-color: rgba(81, 255, 0, 0.5);
@@ -29,11 +29,16 @@ header {
     margin: 0 0 0 50px;
 }
 
-.memory-card {
+/* .memory-card {
     width: 80px !important;
     height: 100%;
     background-color: rgb(34, 34, 54);
     padding: 20px ;
-    margin: 0 50px 0 0;
-    
+    margin: 0 50px 0 0; 
+} */
+
+
+
+img {
+    width: 100px;
 }

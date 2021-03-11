@@ -60,7 +60,7 @@ img {
     height: 30%;
     margin: 4px 10px 2px 16px;
     position: relative;
-    border: 2px solid deeppink;
+    border: 2px solid rgba(5, 48, 83);
     border-radius: 0.8em;
     transform: scale(1);
     box-shadow: 3px 2px 8px 0 rgba(5, 48, 83, 0.822);
@@ -76,7 +76,7 @@ img {
 .back-face {
     width: 100%;
     height: 100%;
-    border: 2px solid lime;
     position: absolute;
+    border-radius: 0.65em;
 }
 

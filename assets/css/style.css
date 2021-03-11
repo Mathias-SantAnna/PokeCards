@@ -10,22 +10,23 @@ body {
 }
 
 header {
-    margin: 15px 20% 15px 20%;
+    margin: 5px 10% 15px 10%;
     
 }
 
 .score {
-    width: 80px !important;
-    height: 100%;
+    width: 100% !important;
+    height: 80%;
     background-color: rgba(0, 0, 255, 0.5);
     padding: 12px ;
-    margin: 25px 0 0 0;
-    max-width: 20%;
+    margin: 10px 0 0 0;
+    border-radius: .6rem;
     /* display: none; */
 }
 
 #logo img {
-    width: 80%;
+    width: 95%;
+    padding-top: 20px;
 }
 
 img {
@@ -62,6 +63,7 @@ img {
     border: 2px solid deeppink;
     border-radius: 0.8em;
     transform: scale(1);
+    box-shadow: 3px 2px 8px 0 rgba(5, 48, 83, 0.822);
 }
 
 /* CLICK  Effect*/
@@ -77,14 +79,4 @@ img {
     border: 2px solid lime;
     position: absolute;
 }
-
-.btn {
-    border-radius: .6rem;
-    border: 1px solid rgb(9, 109, 190);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 600;
-    letter-spacing: 2px;
-    color: rgb(5, 48, 83);
-    box-shadow: 3px 2px 8px 0 rgba(5, 48, 83, 0.822);
-    padding: 0.8em;}
 

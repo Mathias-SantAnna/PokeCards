@@ -33,6 +33,11 @@ img {
     width: 100px;
 }
 
+.board-container {
+    display: flex;
+    justify-content: center;
+}
+
 .board-game {
     border: 1px solid rgb(4, 70, 124);
     background: linear-gradient(to bottom, #5cf,#28e);
@@ -47,6 +52,8 @@ img {
     justify-content: space-between;
     perspective: 1000px;
 }
+
+
 
 /* .memory-card {
     width: 80px !important;
@@ -91,3 +98,16 @@ img {
 .front-face {
     transform: rotateY(180deg);
 }
+
+/* BREAKPOINTS */
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */

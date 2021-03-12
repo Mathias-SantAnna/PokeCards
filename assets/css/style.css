@@ -2,7 +2,7 @@
 body {
     height: 100vh;
     width: 100%;
-    background-image: url("assets/images/PokeWallpaper2.png");
+    background-image: url("../../assets/images/PokeWallpaper2.png");
     background-position: center;
     background-color: white;
     background-repeat: no-repeat;
@@ -38,13 +38,13 @@ img {
     background: linear-gradient(to bottom, #5cf,#28e);
     border-radius: 1em;
     padding: 10px ;
-    margin: 0 25% 0 15%;
+
     /* Tutorial */
     width: 1050px;
     height: 680px;
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
+    justify-content: space-between;
     perspective: 1000px;
 }
 

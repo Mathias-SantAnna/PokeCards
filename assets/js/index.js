@@ -4,30 +4,49 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
 
+/*class audioController {
+    constructor() {
+        this.flipSound = new Audio('/assets/audio/flip-card.mp3');
+        this.matchSound = new Audio('/assets/audio/matched.mp3');
+        this.victorySound = new Audio('/assets/audio/victory.mp3');}
+
+    flip(){
+        this.flipSound.play();}
+
+    match(){
+        this.matchSound.play();}
+
+    victory(){
+        this.victorySound.play();}
+} */
+
 function flipCard() {
     if (lockBoard) return;
     if (this === firstCard) return;
-
+    
     this.classList.add('flip');
-
+    
     if (!hasFlippedCard) {
         //first click
         hasFlippedCard = true;
         firstCard = this;
-
+        
         return;
+        
     } 
     //second click
     hasFlippedCard = false;
     secondCard = this;
 
     checkForMatch();
+    
 }
 
 function checkForMatch() {
     let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
 
     isMatch ? disableCards() : unflipCards();
+
 }
 
 function disableCards() {

@@ -3,6 +3,9 @@ const cards = document.querySelectorAll('.memory-card');
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
+let moveCounter = 0;
+let timeCounter = 0;
+let scoreCounter = 0;
 
 /*class audioController {
     constructor() {

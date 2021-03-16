@@ -23,7 +23,23 @@ let scoreCounter = 0;
         this.victorySound.play();}
 } */
 
+
+function timer(){
+	
+	setInterval(function(){ 
+		timeCounter = timeCounter + 1;
+		document.getElementById('time-remaining').innerHTML = 'Timer: ' + timeCounter; 
+		
+ }, 1000);
+	
+}
+
+
 function flipCard() {
+	if (timeCounter ===0){
+		timer();
+	}
+	
     if (lockBoard) return;
     if (this === firstCard) return;
     
@@ -42,14 +58,22 @@ function flipCard() {
     secondCard = this;
 
     checkForMatch();
+    moveCounter = moveCounter + 1;
+    document.getElementById('moves').innerHTML = 'Moves: ' + moveCounter;
     
 }
 
 function checkForMatch() {
     let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
 
-    isMatch ? disableCards() : unflipCards();
-
+    if (isMatch){ 
+		disableCards(); 
+		scoreCounter = scoreCounter + 1; 
+		document.getElementById('score').innerHTML='Score: ' +  scoreCounter;
+	}
+	else{
+		 unflipCards();
+	}
 }
 
 function disableCards() {

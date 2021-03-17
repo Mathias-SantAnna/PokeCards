@@ -14,6 +14,8 @@ header {
     
 }
 
+
+
 .score {
     width: 100% !important;
     height: 80%; 
@@ -39,7 +41,7 @@ img {
 }
 
 .board-game {
-    border: 1px solid rgb(4, 70, 124);
+    border: 1px solid #04467c;
     background: linear-gradient(to bottom, #55ccff,#2288ee);
     border-radius: 1em;
     padding: 10px ;
@@ -68,7 +70,7 @@ img {
     height: 30%;
     margin: 4px 6px 2px 10px;
     position: relative;
-    border: 2px solid rgba(5, 48, 83);
+    border: 2px solid #053053;
     border-radius: 0.8em;
     box-shadow: 3px 2px 8px 0 rgba(5, 48, 83, 0.822);
     transform: scale(1);
@@ -98,6 +100,46 @@ img {
 .front-face {
     transform: rotateY(180deg);
 }
+
+.my-modal-title {
+    padding-top: 1rem; }
+
+.modal-background {
+    height: auto;
+    width: auto;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 8px; }
+
+.info-modal-background {
+    background-image: url("../../assets/images/Pokeball-bg.jpg");
+    background-color: #fa2727a2; }
+
+.modal-content {
+    background-color: transparent;
+    border: none; }
+
+.background-cover-center {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+.info-title  {
+font-family: "BolhaSans-Regular", cursive;
+font-weight: 100;
+color: #FFDE00;
+text-align: center;
+text-shadow: 5 3px 3px rgba(0, 0, 0, 0.7)}
+
+
+.row, .container-fluid {
+    margin-left: 0;
+    margin-right: 0; }
+
+.form-check-input {
+    margin-top: 0;
+    margin-left: 0; }
+
 
 /* BREAKPOINTS */
 /* // Small devices (landscape phones, 576px and up)*/

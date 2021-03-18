@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Montserrat&display=swap');
 
 body {
     height: 100vh;
@@ -125,7 +126,7 @@ img {
   background-position: center center; }
 
 .info-title  {
-font-family: "BolhaSans-Regular", cursive;
+font-family: "Montserrat", cursive;
 font-weight: 100;
 color: #FFDE00;
 text-align: center;

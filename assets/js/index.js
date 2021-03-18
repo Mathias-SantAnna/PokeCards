@@ -7,11 +7,11 @@ let moveCounter = 0;
 let timeCounter = 0;
 let scoreCounter = 0;
 
-/*class audioController {
+class audioController {
     constructor() {
-        this.flipSound = new Audio('/assets/audio/flip-card.mp3');
-        this.matchSound = new Audio('/assets/audio/matched.mp3');
-        this.victorySound = new Audio('/assets/audio/victory.mp3');}
+        this.flipSound = new Audio('../audio/flip-card.mp3');
+        this.matchSound = new Audio('../audio/matched.mp3');
+        this.victorySound = new Audio('../audio/victory.mp3');}
 
     flip(){
         this.flipSound.play();}
@@ -21,7 +21,7 @@ let scoreCounter = 0;
 
     victory(){
         this.victorySound.play();}
-} */
+} 
 
 //----- TRYING MODALS -----
 //IS THIS ONE=> 
@@ -38,32 +38,31 @@ setTimeout(function() {
     });
 }, 500);*/
 
-function timer(){
+function startTimerCount(){
 	setInterval(function(){ 
 		timeCounter = timeCounter + 1;
 		document.getElementById('time-remaining').innerHTML = 'Timer: ' + timeCounter; 
-		
+        if(this.timeCounter === 100)
+            this.gameOver();
  }, 1000);
-	
 }
 
 function flipCard() {
 	if (timeCounter ===0){
-		timer();
+		startTimerCount();
 	}
 	
     if (lockBoard) return;
     if (this === firstCard) return;
-    
+    //this.audioController.flip();
     this.classList.add('flip');
     
     if (!hasFlippedCard) {
         //first click
         hasFlippedCard = true;
         firstCard = this;
-        
+
         return;
-        
     } 
     //second click
     hasFlippedCard = false;
@@ -71,15 +70,15 @@ function flipCard() {
 
     checkForMatch();
     moveCounter = moveCounter + 1;
-    document.getElementById('moves').innerHTML = 'Moves: ' + moveCounter;
-    
+    document.getElementById('moves').innerHTML = 'Moves: ' + moveCounter;   
 }
 
 function checkForMatch() {
     let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
 
     if (isMatch){ 
-		disableCards(); 
+		disableCards();
+        //this.audioController.match();
 		scoreCounter = scoreCounter + 1; 
 		document.getElementById('score').innerHTML='Score: ' +  scoreCounter;
 	}
@@ -102,6 +101,11 @@ function unflipCards() {
         
         resetBoard();
     }, 1500);
+}
+
+function gameOver() {
+    clearInterval(this.timeCounter);
+    //this.audioController.gameOver();
 }
 
 function resetBoard() {

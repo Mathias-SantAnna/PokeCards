@@ -6,6 +6,7 @@ let firstCard, secondCard;
 let moveCounter = 0;
 let timeCounter = 0;
 let scoreCounter = 0;
+let userAvatar = localStorage.getItem("userAvatar");
 
 class audioController {
     constructor() {
@@ -106,6 +107,7 @@ function unflipCards() {
 function gameOver() {
     clearInterval(this.timeCounter);
     //this.audioController.gameOver();
+    
 }
 
 function resetBoard() {

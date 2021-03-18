@@ -7,7 +7,26 @@ let moveCounter = 0;
 let timeCounter = 0;
 let scoreCounter = 0;
 let userAvatar = localStorage.getItem("userAvatar");
+let userName = '';
+let pokemonName = '';
 
+
+function setUserName(event){
+    userName = event.target.innerHTML;
+    alert(`I am ` +  userName + ` !`);
+}
+nameOptions = document.querySelectorAll('.username');
+nameOptions.forEach(card => card.addEventListener('click', setUserName));
+
+
+function setPokemonName(event){
+    pokemonName = event.target.getAttribute("data-name");
+    alert(pokemonName + ' I CHOOSE YOU!');
+}
+pokemonOptions = document.querySelectorAll('.pokemonOption');
+pokemonOptions.forEach(card => card.addEventListener('click', setPokemonName));
+
+//----- AUDIO -----
 class audioController {
     constructor() {
         this.flipSound = new Audio('../audio/flip-card.mp3');
@@ -32,12 +51,14 @@ class audioController {
     },500);
 });
 //OR THIS ONE=> 
-setTimeout(function() {
-    $("#userInfoModal").modal({
-        backdrop: 'static',
-        keyboard: false
-    });
-}, 500);*/
+function checkForUserData() {
+    if ((userAvatar === "default-avatar") || (userName === null) || (userName === "Player") || (userName === "")) {
+        setTimeout(function() {
+            $("#userInfoModal").modal({
+                backdrop: 'static',
+                keyboard: false
+            });
+        }, 500);*/
 
 function startTimerCount(){
 	setInterval(function(){ 
@@ -122,4 +143,6 @@ function resetBoard() {
     });
 })();
 
+
 cards.forEach(card => card.addEventListener('click', flipCard));
+

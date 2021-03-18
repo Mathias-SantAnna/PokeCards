@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -112,12 +111,12 @@
         </div>
     </section>
 
-    <!-- MODAL -->
-    <div class="modal fade show" id="userInfoModal" tabindex="-1" role="dialog" aria-labelledby="userInfoModal" aria-modal="true" style="display:block;">
+    <!-- old  MODAL -->
+    <!-- <div class="modal fade show" id="userInfoModalOLD" tabindex="-1" role="dialog" aria-labelledby="userInfoModal" aria-modal="true" style="display:block;">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body ">
-                    <div class="container-fluid">
+                    <div >
                         <div class="row">
                             <div class="col-12 modal-background background-cover-center info-modal-background pb-2 mb-3">
                                 <div class="row justify-content-center">
@@ -171,35 +170,67 @@
                 </div>
             </div>
         </div>
-    </div>
-    _____________________________________________________________
-    <!-- MODAL TEST -->
-    <!-- <div class="container">
-        <div class="row">
-            <div class="modal fade" id="userInfoModal">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-header">
-                        <h3>Title Here</h3>
-                    </div>
-                    <div class="modal-body">
-                        Whats your name?
-                        <input type="form-control">
-                    </div>
-                    <div class="modal-footer">
-                        <input type="btn btn-primary" data-dismiss="modal" value="Start">
-                    </div>
+    </div> -->
+
+    <!--  NEW MODAL  -->
+    <div class="modal fade modal-background" id="userInfoModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content ">
+                <div class="modal-body info-modal-background background-cover-center">
+                    <form class="userInfoModalForm">
+                        <div class="col-12 info-title">
+                            <h3>Who are you?</h3>
+                        </div>
+                        <div class="form-group text-center">
+                            <div>
+                                <label for="Misty" class="username" style="cursor: pointer;">Misty</label>
+                            </div>
+                            <div>
+                                <label for="Brock" class="username"  style="cursor: pointer;">Brock</label>
+                            </div>
+                            <div>
+                                <label for="Ash " class="username"  style="cursor: pointer;">Ash </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 info-title">
+                                <h3>Choose yor POKEMON</h3>
+                            </div>
+                        </div>
+                        <div class="row box-white-curved-corners info-box py-1 my-2">
+                            <label class="col-4 text-right selection-button my-2 p-0">
+                               
+                                <img src="assets/images/CharmanderB.jpg" data-name="Charmander" class="radio background-cover-center pokemonOption" alt="Fire Pokemon illustration" />
+                            </label>
+                            <label class="col-4 text-center selection-button my-2 p-0">
+                                
+                                <img src="assets/images/PikachuA.jpg" data-name="Pikachu"  class="radio background-cover-center pokemonOption" alt="Pikachu illustration" />
+                            </label>
+                            <label class="col-4 text-left selection-button my-2 p-0">
+                                
+                                <img src="assets/images/SquirtleA.jpg" data-name="Squirtle"  class="radio background-cover-center pokemonOption" alt="Water Pokemon illustration" />
+                            </label>
+                        </div>
+                        <button id="user-info-submit-button" class="btn btn-pokeball btn-block tick-btn" aria-label="Submit Button" data-dismiss="modal"> 
+                            <i>Let's GO!</i>
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
 
     <!-- SCRIPT -->
     <script src="assets/js/index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    
+    <script>
+         $('#userInfoModal').modal('show');
+
+    </script>
     
 </body>
 </html>

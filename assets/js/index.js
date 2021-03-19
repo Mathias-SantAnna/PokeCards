@@ -54,12 +54,14 @@ function startTimerCount(){
 function flipCard() {
 	if (timeCounter ===0){
 		startTimerCount();
+        
 	}
 	
     if (lockBoard) return;
     if (this === firstCard) return;
     
     this.classList.add('flip');
+    $('#cardFlipAudio')[0].play();
     
     if (!hasFlippedCard) {
         //first click

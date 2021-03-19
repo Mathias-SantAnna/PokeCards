@@ -14,11 +14,6 @@ let matchSound= '';
 const reset = document.querySelector(".reset-btn");
 
 
-
-function audio(){
-    var audio = new Audio('C:\Code\MS2\PokeCards\assets\audio\flip-card.mp3');
-    
-}
 function setUserName(event){
     userName = event.target.innerHTML;
     alert(`I am ` +  userName + ` !`);
@@ -34,22 +29,6 @@ function setPokemonName(event){
 pokemonOptions = document.querySelectorAll('.pokemonOption');
 pokemonOptions.forEach(card => card.addEventListener('click', setPokemonName));
 
-//----- AUDIO -----
-class audioController {
-    constructor() {
-        this.flipSound = new Audio('../audio/flip-card.mp3');
-        this.matchSound = new Audio('../audio/matched.mp3');
-        this.victorySound = new Audio('../audio/victory.mp3');}
-
-    flip(){
-        this.flipSound.play();}
-
-    match(){
-        this.matchSound.play();}
-
-    victory(){
-        this.victorySound.play();}
-} 
 
 //----- TRYING MODALS -----
 //IS THIS ONE=> 
@@ -79,12 +58,6 @@ function flipCard() {
 	
     if (lockBoard) return;
     if (this === firstCard) return;
-    //let v = new audioController();
-    //v.flip();
-    function audio(){
-    var audio = new Audio('C:\Code\MS2\PokeCards\assets\audio\flip-card.mp3');
-    audio.play();
-    }
     
     this.classList.add('flip');
     

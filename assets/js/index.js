@@ -9,8 +9,16 @@ let scoreCounter = 0;
 let userAvatar = localStorage.getItem("userAvatar");
 let userName = '';
 let pokemonName = '';
+let flipSound= '';
+let matchSound= '';
+const reset = document.querySelector(".reset-btn");
 
 
+
+function audio(){
+    var audio = new Audio('C:\Code\MS2\PokeCards\assets\audio\flip-card.mp3');
+    
+}
 function setUserName(event){
     userName = event.target.innerHTML;
     alert(`I am ` +  userName + ` !`);
@@ -45,21 +53,16 @@ class audioController {
 
 //----- TRYING MODALS -----
 //IS THIS ONE=> 
-/*$(document).ready(function() {
-    setTimeout(function(){
-        $("#userInfoModal").modal('show');
-    },500);
-});
-//OR THIS ONE=> 
-function checkForUserData() {
-    if ((userAvatar === "default-avatar") || (userName === null) || (userName === "Player") || (userName === "")) {
+
+/*function checkForUserData() {
+    if () {
         setTimeout(function() {
             $("#userInfoModal").modal({
                 backdrop: 'static',
                 keyboard: false
             });
-        }, 500);*/
-
+    }, 500);*/
+    
 function startTimerCount(){
 	setInterval(function(){ 
 		timeCounter = timeCounter + 1;
@@ -76,7 +79,13 @@ function flipCard() {
 	
     if (lockBoard) return;
     if (this === firstCard) return;
-    //this.audioController.flip();
+    //let v = new audioController();
+    //v.flip();
+    function audio(){
+    var audio = new Audio('C:\Code\MS2\PokeCards\assets\audio\flip-card.mp3');
+    audio.play();
+    }
+    
     this.classList.add('flip');
     
     if (!hasFlippedCard) {
@@ -125,17 +134,61 @@ function unflipCards() {
     }, 1500);
 }
 
+//Reset Btn
+$('.reset-btn').click(function() {
+    resetGame();
+});
+
+function displayModal() {
+    // Access  modal <span> element (x), closes  modal
+    const modalClose = document.getElementsByClassName("close")[0];
+    // When the game is won set modal to display block to show it
+    modal.style.display= "block";
+    // When the user clicks on <span> (x), close the modal
+    modalClose.onclick = function() {
+    modal.style.display = "none";
+    };
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    };
+}
+
+// --- STOP TIMER ---
+function stopTime() {
+    clearInterval(timeCounter);
+}
+
+// --- GAME OVER ---
 function gameOver() {
     clearInterval(this.timeCounter);
     //this.audioController.gameOver();
-    
 }
+
+//Win Btn
+$('#win-modal-close-btn').click(function() {
+    resetGame();
+    $('#winModal').modal('hide');
+});
+
+// --- WIN GAME ---
+function winGame () {
+    if (isMatch.length === 9) {
+        stopTime();
+        displayVictoryModal();
+    }
+}
+
+
 
 function resetBoard() {
     [hasFlippedCard, lockBoard] = [false, false];
     [firstCard, secondCard] = [null, null];
 }
 
+// Immediately Invoked Function Expression IIFE //
 (function shuffle() {
     cards.forEach(card => {
         let randomPos = Math.floor(Math.random()*18);
@@ -143,6 +196,4 @@ function resetBoard() {
     });
 })();
 
-
 cards.forEach(card => card.addEventListener('click', flipCard));
-

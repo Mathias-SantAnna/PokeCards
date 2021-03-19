@@ -25,7 +25,7 @@
                     <br>
                     <span id="time-remaining">Timer: </span> 
                     <br>
-                    <button class="btn">RESET</button>
+                    <button class="btn reset-btn">RESET</button>
                 </div>
             </div>
         </div>
@@ -38,6 +38,7 @@
                 <div class="memory-card" data-framework="Card1">
                     <img class="front-face" src="assets/images/Card1.png" alt="PocketMonster">
                     <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+
                 </div>
                 <div class="memory-card" data-framework="Card1">
                     <img class="front-face" src="assets/images/Card1.png" alt="PocketMonster">
@@ -110,68 +111,7 @@
             </div>
         </div>
     </section>
-
-    <!-- old  MODAL -->
-    <!-- <div class="modal fade show" id="userInfoModalOLD" tabindex="-1" role="dialog" aria-labelledby="userInfoModal" aria-modal="true" style="display:block;">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-body ">
-                    <div >
-                        <div class="row">
-                            <div class="col-12 modal-background background-cover-center info-modal-background pb-2 mb-3">
-                                <div class="row justify-content-center">
-                                    <div class="col-12 info-title">
-                                        <h3>Who are you?</h3>
-                                    </div>
-                                    <div class="col-12 text-center">
-                                        <form class="userInfoModalForm">
-                                            <div class="form-group">
-                                                <div>
-                                                    <input type="radio" id="blue" name="name" value="blue">
-                                                    <label for="blue">Blue</label>
-                                                </div>
-                                                <div>
-                                                    <input type="radio" id="silver" name="name" value="silver">
-                                                    <label for="silver">Silver</label>
-                                                </div>
-                                                <div>
-                                                    <input type="radio" id="ash ketchum" name="name" value="ash ketchum" checked>
-                                                    <label for="ash ketchum">Ash Ketchum</label>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-12 info-title">
-                                                    <h3>Choose yor POKEMON</h3>
-                                                </div>
-                                            </div>
-                                            <div class="row box-white-curved-corners info-box py-1 my-2">
-                                                <label class="col-4 text-right selection-button my-2 p-0">
-                                                    <input class="form-check-input" type="radio" name="avatarRadios" id="avatarRadios1" value="plant" aria-label="Cute plant illustration" required="">
-                                                    <img src="assets/images/CharmanderB.jpg" class="radio background-cover-center " alt="Fire Pokemon illustration">
-                                                </label>
-                                                <label class="col-4 text-center selection-button my-2 p-0">
-                                                    <input class="form-check-input" type="radio" name="avatarRadios" id="avatarRadios2" value="car" aria-label="Yellow car illustration" required="">
-                                                    <img src="assets/images/PikachuA.jpg" class="radio background-cover-center " alt="Pikachu illustration">
-                                                </label>
-                                                <label class="col-4 text-left selection-button my-2 p-0">
-                                                    <input class="form-check-input" type="radio" name="avatarRadios" id="avatarRadios3" value="strawberry" aria-label="Strawberry illustration" required="">
-                                                    <img src="assets/images/SquirtleA.jpg" class="radio background-cover-center " alt="Water Pokemon illustration">
-                                                </label>
-                                            </div>
-                                            <button id="user-info-submit-button" class="btn btn-light  tick-btn" aria-label="Submit Button"> 
-                                                <i class="fas">Let's GO!</i>
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
+  
     <!--  NEW MODAL  -->
     <div class="modal fade modal-background" id="userInfoModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl">
@@ -219,6 +159,20 @@
             </div>
         </div>
     </div>
+
+    <!-- WIN MODAL -->
+    <!-- Modal -->
+    <section class="win-game-modal">
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Congratulations!</h2>
+                <p>You have won the game and found all 8 pairs of cards.</p>
+                <img class="modal-img" src="" alt="thumbs up ">
+                <button class="btn play-again-btn">Play Again?</button>
+            </div>
+        </div>
+    </section>
 
 
     <!-- SCRIPT -->

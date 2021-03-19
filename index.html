@@ -113,13 +113,13 @@
     </section>
   
     <!--  NEW MODAL  -->
-    <div class="modal fade modal-background" id="userInfoModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content ">
+    <div class="modal fade" id="userInfoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" backdrop="static">
+        <div class="modal-dialog ">
+            <div class="modal-content">
                 <div class="modal-body info-modal-background background-cover-center">
                     <form class="userInfoModalForm">
                         <div class="col-12 info-title">
-                            <h3>Who are you?</h3>
+                            <h3 id="exampleModalLabel" >Who are you?</h3>
                         </div>
                         <div class="form-group text-center">
                             <div>
@@ -151,7 +151,7 @@
                                 <img src="assets/images/SquirtleA.jpg" data-name="Squirtle"  class="radio background-cover-center pokemonOption" alt="Water Pokemon illustration" />
                             </label>
                         </div>
-                        <button id="user-info-submit-button" class="btn btn-pokeball btn-block tick-btn" aria-label="Submit Button" data-dismiss="modal"> 
+                        <button id="user-info-submit-button" type="button" class="btn btn-pokeball btn-block tick-btn" aria-label="Submit Button" data-dismiss="modal"> 
                             <i>Let's GO!</i>
                         </button>
                     </form>
@@ -177,13 +177,21 @@
     <audio id="buttonFlipAudio" src="./assets/audio/flip-card.mp3"></audio>
 
     <!-- SCRIPT -->
-    <script src="assets/js/index.js"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    
+    <script src="assets/js/index.js"></script>
     <script>
          $('#userInfoModal').modal('show');
+         if (1==1) {
+            setTimeout(function() {
+                    $("#userInfoModal").modal({
+                        backdrop: 'static',
+                        keyboard: false
+                    });
+            }, 500);
+        }
 
     </script>
     

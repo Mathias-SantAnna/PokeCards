@@ -5,14 +5,34 @@ let lockBoard = false;
 let firstCard, secondCard;
 let moveCounter = 0;
 let timeCounter = 0;
-let scoreCounter = 0;
+var scoreCounter = 0;
 let userAvatar = localStorage.getItem("userAvatar");
 let userName = '';
 let pokemonName = '';
 let flipSound= '';
 let matchSound= '';
+var timer = null;
+var firstClick = true;
 const reset = document.querySelector(".reset-btn");
 
+
+function resetGame(){
+    stopTime();
+    flipped = document.querySelectorAll('.flip');
+    [].forEach.call(flipped, function(el) {
+        el.classList.remove("flip");
+    });
+    moveCounter = 0;
+    timeCounter = 0;
+    scoreCounter = 0;
+    firstClick = true;
+    timer = null;
+    loadCards();
+    document.getElementById('moves').innerHTML = 'Moves: ' + moveCounter;
+    document.getElementById('time-remaining').innerHTML = 'Timer: ' + timeCounter;   
+    document.getElementById('score').innerHTML='Score: ' +  scoreCounter;
+
+}
 
 function setUserName(event){
     userName = event.target.innerHTML;
@@ -43,25 +63,30 @@ pokemonOptions.forEach(card => card.addEventListener('click', setPokemonName));
     }, 500);*/
     
 function startTimerCount(){
-	setInterval(function(){ 
-		timeCounter = timeCounter + 1;
-		document.getElementById('time-remaining').innerHTML = 'Timer: ' + timeCounter; 
-        if(this.timeCounter === 100)
-            this.gameOver();
+	timer = setInterval(function(){ 
+        timeCounter = timeCounter + 1;
+        if(timeCounter >= 100){
+            gameOver();
+        }
+        else{
+            document.getElementById('time-remaining').innerHTML = 'Timer: ' + timeCounter; 
+        }
  }, 1000);
 }
 
 function flipCard() {
-	if (timeCounter ===0){
+    console.log('flip');
+	if (firstClick){
+        firstClick = false;
+        console.log('start timer');
 		startTimerCount();
-        
 	}
 	
     if (lockBoard) return;
     if (this === firstCard) return;
     
     this.classList.add('flip');
-    $('#cardFlipAudio')[0].play();
+   //$('#cardFlipAudio')[0].play();
     
     if (!hasFlippedCard) {
         //first click
@@ -86,7 +111,11 @@ function checkForMatch() {
 		disableCards();
         //this.audioController.match();
 		scoreCounter = scoreCounter + 1; 
-		document.getElementById('score').innerHTML='Score: ' +  scoreCounter;
+        document.getElementById('score').innerHTML='Score: ' +  scoreCounter;
+        if (winGame()){
+            gameOver();
+        }
+
 	}
 	else{
 		 unflipCards();
@@ -133,13 +162,20 @@ function displayModal() {
 
 // --- STOP TIMER ---
 function stopTime() {
-    clearInterval(timeCounter);
+    clearInterval(timer);
 }
 
 // --- GAME OVER ---
 function gameOver() {
-    clearInterval(this.timeCounter);
-    //this.audioController.gameOver();
+    stopTime();
+   if (winGame()){
+        console.log("User Won");
+   }
+   else{
+    console.log("You loose"); 
+
+   }
+ 
 }
 
 //Win Btn
@@ -150,10 +186,12 @@ $('#win-modal-close-btn').click(function() {
 
 // --- WIN GAME ---
 function winGame () {
-    if (isMatch.length === 9) {
-        stopTime();
-        displayVictoryModal();
+    
+    if (scoreCounter=== 9) {
+        // displayVictoryModal();
+        return true;
     }
+    return false;
 }
 
 
@@ -164,11 +202,19 @@ function resetBoard() {
 }
 
 // Immediately Invoked Function Expression IIFE //
-(function shuffle() {
+function shuffleCards(){
+
     cards.forEach(card => {
         let randomPos = Math.floor(Math.random()*18);
         card.style.order = randomPos;
     });
-})();
+    
 
-cards.forEach(card => card.addEventListener('click', flipCard));
+}
+
+
+function loadCards(){
+    shuffleCards();
+    cards.forEach(card => card.addEventListener('click', flipCard));
+}
+loadCards();

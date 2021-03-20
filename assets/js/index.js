@@ -1,5 +1,5 @@
 const cards = document.querySelectorAll('.memory-card');
-
+const playAgain = document.querySelector(".play-again-btn");
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
@@ -75,10 +75,10 @@ function startTimerCount(){
 }
 
 function flipCard() {
-    console.log('flip');
 	if (firstClick){
         firstClick = false;
-        console.log('start timer');
+        $('#FlipAudio')[0].currentTime = 0;
+        $('#FlipAudio')[0].play();
 		startTimerCount();
 	}
 	
@@ -86,7 +86,6 @@ function flipCard() {
     if (this === firstCard) return;
     
     this.classList.add('flip');
-   //$('#cardFlipAudio')[0].play();
     
     if (!hasFlippedCard) {
         //first click
@@ -98,7 +97,8 @@ function flipCard() {
     //second click
     hasFlippedCard = false;
     secondCard = this;
-
+    $('#FlipAudio')[0].currentTime = 0;
+    $('#FlipAudio')[0].play();
     checkForMatch();
     moveCounter = moveCounter + 1;
     document.getElementById('moves').innerHTML = 'Moves: ' + moveCounter;   
@@ -108,8 +108,9 @@ function checkForMatch() {
     let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
 
     if (isMatch){ 
+        $('#MatchAudio')[0].currentTime = 0;
+        $('#MatchAudio')[0].play();
 		disableCards();
-        //this.audioController.match();
 		scoreCounter = scoreCounter + 1; 
         document.getElementById('score').innerHTML='Score: ' +  scoreCounter;
         if (winGame()){
@@ -135,7 +136,7 @@ function unflipCards() {
         secondCard.classList.remove('flip');
         
         resetBoard();
-    }, 1500);
+    }, 1200);
 }
 
 //Reset Btn
@@ -160,6 +161,15 @@ function displayModal() {
     };
 }
 
+// delays sound played when a correct match is found
+function delayedCorrectSound() {
+    setTimeout(function() {
+        $('#FlipAudio')[0].play();
+        //$('#MatchAudio')[0].play();
+        //$('#VictoryAudio')[0].play();
+    }, 100);
+}
+
 // --- STOP TIMER ---
 function stopTime() {
     clearInterval(timer);
@@ -169,26 +179,26 @@ function stopTime() {
 function gameOver() {
     stopTime();
    if (winGame()){
-        console.log("User Won");
+        displayModal();
    }
    else{
-    console.log("You loose"); 
-
+    alert(`You Lose!`); 
    }
  
 }
 
-//Win Btn
-$('#win-modal-close-btn').click(function() {
+//Play-Again Btn
+$('.play-again-btn').click(function() {
     resetGame();
-    $('#winModal').modal('hide');
+    $('#WinModal').modal('hide');
 });
 
 // --- WIN GAME ---
 function winGame () {
-    
+    //$('#VictoryAudio')[0].currentTime = 0;
+    //$('#VictoryAudio')[0].play();
     if (scoreCounter=== 9) {
-        // displayVictoryModal();
+        displayModal();
         return true;
     }
     return false;

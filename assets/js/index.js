@@ -65,7 +65,9 @@ pokemonOptions.forEach(card => card.addEventListener('click', setPokemonName));
 function startTimerCount(){
 	timer = setInterval(function(){ 
         timeCounter = timeCounter + 1;
-        if(timeCounter >= 100){
+        if(timeCounter >= 10){
+            $('#GameOverAudio')[0].currentTime = 0;
+            $('#GameOverAudio')[0].play();
             gameOver();
         }
         else{
@@ -77,8 +79,8 @@ function startTimerCount(){
 function flipCard() {
 	if (firstClick){
         firstClick = false;
-        $('#FlipAudio')[0].currentTime = 0;
-        $('#FlipAudio')[0].play();
+        //$('#FlipAudio')[0].currentTime = 0;
+        //$('#FlipAudio')[0].play();
 		startTimerCount();
 	}
 	
@@ -89,6 +91,8 @@ function flipCard() {
     
     if (!hasFlippedCard) {
         //first click
+        $('#FlipAudio')[0].currentTime = 0;
+        $('#FlipAudio')[0].play();
         hasFlippedCard = true;
         firstCard = this;
 
@@ -114,6 +118,7 @@ function checkForMatch() {
 		scoreCounter = scoreCounter + 1; 
         document.getElementById('score').innerHTML='Score: ' +  scoreCounter;
         if (winGame()){
+            
             gameOver();
         }
 
@@ -162,13 +167,13 @@ function displayModal() {
 }
 
 // delays sound played when a correct match is found
-function delayedCorrectSound() {
+/*function delayedCorrectSound() {
     setTimeout(function() {
         $('#FlipAudio')[0].play();
-        //$('#MatchAudio')[0].play();
-        //$('#VictoryAudio')[0].play();
-    }, 100);
-}
+        $('#MatchAudio')[0].play();
+        $('#VictoryAudio')[0].play();
+    }, 800);
+}*/
 
 // --- STOP TIMER ---
 function stopTime() {
@@ -178,12 +183,15 @@ function stopTime() {
 // --- GAME OVER ---
 function gameOver() {
     stopTime();
-   if (winGame()){
+    if (winGame()){
         displayModal();
-   }
-   else{
-    alert(`You Lose!`); 
-   }
+    }
+    else{
+    $('#GameOverAudio')[0].currentTime = 0;
+    $('#GameOverAudio')[0].play();
+    alert(`GAME OVER! Let's Try Again...`);
+    resetGame();
+    }
  
 }
 
@@ -195,9 +203,10 @@ $('.play-again-btn').click(function() {
 
 // --- WIN GAME ---
 function winGame () {
-    //$('#VictoryAudio')[0].currentTime = 0;
-    //$('#VictoryAudio')[0].play();
+    
     if (scoreCounter=== 9) {
+        $('#VictoryAudio')[0].currentTime = 0;
+        $('#VictoryAudio')[0].play();
         displayModal();
         return true;
     }

@@ -52,7 +52,7 @@ pokemonOptions.forEach(card => card.addEventListener('click', setPokemonName));
 function startTimerCount(){
 	timer = setInterval(function(){ 
         timeCounter = timeCounter + 1;
-        if(timeCounter >= 10){
+        if(timeCounter >= 80){
             $('#GameOverAudio')[0].currentTime = 0;
             $('#GameOverAudio')[0].play();
             gameOver();
@@ -166,7 +166,7 @@ function winGame () {
     if (scoreCounter=== 9) {
         $('#VictoryAudio')[0].currentTime = 0;
         $('#VictoryAudio')[0].play();
-        displayModal();
+        $('#WinModal').modal('show');
         return true;
     }
     return false;

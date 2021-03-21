@@ -161,17 +161,24 @@
     </div>
 
     <!-- WIN MODAL -->
-    <section class="modal ">
-        <div id="modal WinModal" class="modal fade ">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h3>Awesome!</h3>
-                <h2>You've got them all!</h2>
-                <img class="WinModal" src="assets/images/" alt="Ash Champion">
-                <button class="btn play-again-btn">Play Again?</button>
+    <div class="modal fade" id="WinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content info-modal-background background-cover-center">
+            <div class="modal-header">
+              <h4 class="modal-title" id="VictoryTitle">Awesome! You've got them all!</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
+            <div class="modal-body ">
+                <img class="WinModal" src="assets/images/AshChampion.png" alt="Ash Champion">
+            </div>
+            <div class="modal-footer">
+                <button class="btn play-again-btn btn-primary">Play Again?</button>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
     
     <!-- AUDIO FILES -->
     <audio id="FlipAudio" src="./assets/audio/flip-card.mp3"></audio>

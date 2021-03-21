@@ -31,7 +31,6 @@ function resetGame(){
     document.getElementById('moves').innerHTML = 'Moves: ' + moveCounter;
     document.getElementById('time-remaining').innerHTML = 'Timer: ' + timeCounter;   
     document.getElementById('score').innerHTML='Score: ' +  scoreCounter;
-
 }
 
 function setUserName(event){
@@ -49,19 +48,7 @@ function setPokemonName(event){
 pokemonOptions = document.querySelectorAll('.pokemonOption');
 pokemonOptions.forEach(card => card.addEventListener('click', setPokemonName));
 
-
-//----- TRYING MODALS -----
-//IS THIS ONE=> 
-
-/*function checkForUserData() {
-    if () {
-        setTimeout(function() {
-            $("#userInfoModal").modal({
-                backdrop: 'static',
-                keyboard: false
-            });
-    }, 500);*/
-    
+   
 function startTimerCount(){
 	timer = setInterval(function(){ 
         timeCounter = timeCounter + 1;
@@ -79,8 +66,6 @@ function startTimerCount(){
 function flipCard() {
 	if (firstClick){
         firstClick = false;
-        //$('#FlipAudio')[0].currentTime = 0;
-        //$('#FlipAudio')[0].play();
 		startTimerCount();
 	}
 	
@@ -148,32 +133,6 @@ function unflipCards() {
 $('.reset-btn').click(function() {
     resetGame();
 });
-
-function displayModal() {
-    // Access  modal <span> element (x), closes  modal
-    const modalClose = document.getElementsByClassName("close")[0];
-    // When the game is won set modal to display block to show it
-    modal.style.display= "block";
-    // When the user clicks on <span> (x), close the modal
-    modalClose.onclick = function() {
-    modal.style.display = "none";
-    };
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    };
-}
-
-// delays sound played when a correct match is found
-/*function delayedCorrectSound() {
-    setTimeout(function() {
-        $('#FlipAudio')[0].play();
-        $('#MatchAudio')[0].play();
-        $('#VictoryAudio')[0].play();
-    }, 800);
-}*/
 
 // --- STOP TIMER ---
 function stopTime() {

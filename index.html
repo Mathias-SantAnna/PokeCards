@@ -119,7 +119,7 @@
                 <div class="modal-body info-modal-background background-cover-center">
                     <form class="userInfoModalForm">
                         <div class="col-12 info-title">
-                            <h3 id="exampleModalLabel" >Who are you?</h3>
+                            <h3 class="modal-title">Who are you?</h3>
                         </div>
                         <div class="form-group text-center">
                             <div>
@@ -134,7 +134,7 @@
                         </div>
                         <div class="row">
                             <div class="col-12 info-title">
-                                <h3>Choose yor POKEMON</h3>
+                                <p class="modal-title">Choose your POKEMON</p>
                             </div>
                         </div>
                         <div class="row box-white-curved-corners info-box py-1 my-2">
@@ -151,8 +151,7 @@
                                 <img src="assets/images/SquirtleA.jpg" data-name="Squirtle"  class="radio background-cover-center pokemonOption" alt="Water Pokemon illustration" />
                             </label>
                         </div>
-                        <button id="user-info-submit-button" type="button" class="btn btn-pokeball btn-block tick-btn" aria-label="Submit Button" data-dismiss="modal"> 
-                            <i>Let's GO!</i>
+                        <button id="user-info-submit-button" type="button" class="btn modal-btn justify-center content-center" aria-label="Submit Button" data-dismiss="modal"> Let's GO!
                         </button>
                     </form>
                 </div>
@@ -165,7 +164,7 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content info-modal-background background-cover-center">
             <div class="modal-header ">
-                <h4 class="modal-title" id="VictoryTitle">Awesome! You've got them all!</h4>
+                <p class="modal-title">Awesome! You've got them all!</p>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
@@ -174,7 +173,7 @@
                 <img class="WinModal" src="assets/images/AshChampion.png" alt="Ash Champion">
             </div>
             <div class="modal-footer">
-                <button class="btn play-again-btn btn-primary">Play Again?</button>
+                <button class="btn play-again-btn modal-btn">Play Again?</button>
             </div>
             </div>
         </div>
@@ -191,18 +190,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <script src="assets/js/index.js"></script>
-    <script>
-         $('#userInfoModal').modal('show');
-         if (1==1) {
-            setTimeout(function() {
-                    $("#userInfoModal").modal({
-                        backdrop: 'static',
-                        keyboard: false
-                    });
-            }, 500);
-        }
-
-    </script>
     
 </body>
 </html>

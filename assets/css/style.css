@@ -78,9 +78,6 @@ img {
 
 
 /* --- MODAL --- */
-.my-modal-title {
-    padding-top: 1rem; }
-
 #WinModal {
     justify-content: center;
     align-items: center;}
@@ -93,9 +90,16 @@ img {
     background-image: url("../../assets/images/Pokeball-bg.jpg");
     background-color: #fa2727a2; }
 
+.modal-title {
+    font-size: 2.8rem;
+}
+
 .modal-content {
     background-color: transparent;
-    border: none ; }
+    border-radius: 10px;
+    border: solid 5px #021f36;
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), 0 4px 16px rgba(0, 0, 0, 0.4);}
 
 .background-cover-center {
     background-repeat: no-repeat;
@@ -105,22 +109,25 @@ img {
 .info-title  {
     font-family: 'Acme',"Montserrat", cursive;
     font-weight: 100;
+    letter-spacing: 2px;
     color: #FFDE00;
     padding: 15px;
     text-align: center;}
 
 .userInfoModalForm img {
-    border: 5px solid #053053;
+    border: 5px solid #021f36;
     border-radius: 25px;
-    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 2px 3px rgba(0, 0, 0, 0.4);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2), 0 2px 10px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 2px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 3px 10px rgba(0, 0, 0, 0.4);
 }
 
-.form-group label{
+.form-group {
+    margin-bottom: .25rem;
     font-family: 'Acme', 'Montserrat', sans-serif;
     color: white;
-    font-size: 1.5em;
-} 
+    letter-spacing: 2.5px;
+    font-size: 2em;
+}
 
 .form-check-input {
     margin-top: 0;
@@ -128,12 +135,17 @@ img {
 
     
 /* --- MODAL BUTTON --- */
-.btn-pokeball {
+.modal-btn {
     background-color: #FFDE00;
     color: #053053;
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: 'Acme', 'Montserrat', sans-serif;
+    margin-left: 20%;
+    width: 60%;
+    letter-spacing: 1.5px;
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 12px rgba(0, 0, 0, 0.4);
 }
 
 /* .btn::after {

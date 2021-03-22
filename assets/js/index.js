@@ -26,6 +26,8 @@ $('#userInfoModal').modal('show');
         }, 500);
     }
 
+$('#userInfoModal').data('bs.modal').options.backdrop = 'static';
+
 function resetGame(){
     stopTime();
     flipped = document.querySelectorAll('.flip');

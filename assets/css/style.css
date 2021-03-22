@@ -94,6 +94,18 @@ img {
     font-size: 2.8rem;
 }
 
+.modal-heading {
+    font-size: 2.5rem;
+}
+
+.info-title  {
+    font-family: 'Acme',"Montserrat", cursive;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #FFDE00;
+    padding: 5px 5px;
+    text-align: center;}
+
 .modal-content {
     background-color: transparent;
     border-radius: 10px;
@@ -106,12 +118,12 @@ img {
     background-size: cover;
     background-position: center center; }
 
-.info-title  {
+.info-heading  {
     font-family: 'Acme',"Montserrat", cursive;
     font-weight: 100;
     letter-spacing: 2px;
     color: #FFDE00;
-    padding: 15px;
+    padding: 5px 10px;
     text-align: center;}
 
 .userInfoModalForm img {

@@ -72,7 +72,7 @@ pokemonOptions.forEach(card => card.addEventListener('click', setPokemonName));
 function startTimerCount(){
 	timer = setInterval(function(){ 
         timeCounter = timeCounter + 1;
-        if(timeCounter >= 100){
+        if(timeCounter >= 300){
             $('#GameOverAudio')[0].currentTime = 0;
             $('#GameOverAudio')[0].play();
             gameOver();

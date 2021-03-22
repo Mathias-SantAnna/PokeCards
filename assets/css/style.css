@@ -122,6 +122,19 @@ header {
 #modal-logo img {
     width: 100%;
 }
+.Win-Score {
+    width: auto;
+    height: auto; 
+    background: linear-gradient(to bottom, #55ccff,#2288ee);
+    font-family: 'Acme', 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    padding: 12px ;
+    margin: 10px 0 0 0;
+    border-radius: .6rem;
+    border: solid 2px #FFDE00;
+    -webkit-box-shadow: 0 3px 5px rgb(0 0 0 / 20%), 0 3px 6px rgb(0 0 0 / 40%);
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%), 0 3px 12px rgb(0 0 0 / 40%);}
 
 .info-title  {
     font-family: 'Acme',"Montserrat", cursive;
@@ -238,6 +251,7 @@ header {
     .row {
         margin-left: 0;
         margin-right: 0;
+        margin-bottom: 8px;
     }
     .col-9 {
         max-width: 70%;
@@ -260,11 +274,6 @@ header {
         margin: 5px 2px 6px 2px !important;
     }
 
-    .row {
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 8px;
-    }
     .score {
         padding: 8px;
         font-size: .9em;
@@ -284,6 +293,34 @@ header {
         padding: 1px 5px;
     }
     .info-title img {
+        width: 100%;
+    }
+    .info-heading{
+        padding: 5px 0;
+    }
+    .modal-body {
+        padding: .6rem;
+    }
+    #WinModal img {
+        width: auto;
+        height: 310px;
+    }
+    .Win-Score {
+        padding: 10px;
+        margin: 1px 50px;
+        color: #fff;
+    }
+    .Win-Score span {
+        margin: 0 20px;
+    }
+    .modal-title {
+        font-size: 2.5rem;
+        line-height: 1.5;
+       
+    }
+    .modal-btn {
+        margin-left: 0;
+        margin-right: 0;
         width: 100%;
     }
 } 

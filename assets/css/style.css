@@ -22,11 +22,8 @@ header {
     border-radius: .6rem;}
 
 #logo img {
-    width: 95%;
+    width: 90%;
     padding-top: 20px;}
-
-img {
-    width: 100px;}
 
 .board-container {
     display: flex;
@@ -90,6 +87,7 @@ img {
     background-image: url("../../assets/images/Pokeball-bg.jpg");
     background-color: #fa2727a2; }
 
+
 .modal-title {
     font-size: 2.8rem;
 }
@@ -126,7 +124,8 @@ img {
     padding: 5px 10px;
     text-align: center;}
 
-.userInfoModalForm img {
+.selection-button img {
+    width: 80%;
     border: 5px solid #021f36;
     border-radius: 25px;
     -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 2px 5px rgba(0, 0, 0, 0.4);

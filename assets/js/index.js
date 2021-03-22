@@ -6,7 +6,6 @@ let firstCard, secondCard;
 let moveCounter = 0;
 let timeCounter = 0;
 var scoreCounter = 0;
-let userAvatar = localStorage.getItem("userAvatar");
 let userName = '';
 let pokemonName = '';
 let flipSound= '';
@@ -25,7 +24,7 @@ $('#userInfoModal').modal('show');
                 });
         }, 500);
     }
-    ButtonClick
+
 // play button click audio on all button elements
 $('.btn').click(function() {
     playButtonAudio();
@@ -55,7 +54,7 @@ function resetGame(){
 
 function setUserName(event){
     userName = event.target.innerHTML;
-    alert(`I am ` +  userName + ` !`);
+    alert(`Great choice of name, ` +  userName + ` !`);
 }
 nameOptions = document.querySelectorAll('.username');
 nameOptions.forEach(card => card.addEventListener('click', setUserName));

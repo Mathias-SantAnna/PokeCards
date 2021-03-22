@@ -98,7 +98,13 @@ header {
 
 #WinModal img {
     width: 400px;
-    height: 400px;}
+    height: 400px;
+    margin-left: 6%;
+    border: solid 5px #FFDE00;
+    border-radius: 70px;
+    -webkit-box-shadow: 0 3px 5px rgb(0 0 0 / 20%), 0 3px 6px rgb(0 0 0 / 40%);
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%), 0 3px 12px rgb(0 0 0 / 40%);
+}
 
 .info-modal-background {
     background-image: url("../../assets/images/Pokeball-bg.jpg");

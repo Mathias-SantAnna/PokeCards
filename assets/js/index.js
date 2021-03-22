@@ -163,7 +163,7 @@ function stopTime() {
 function gameOver() {
     stopTime();
     if (winGame()){
-        displayModal();
+        //displayModal();
     }
     else{
     $('#GameOverAudio')[0].currentTime = 0;
@@ -182,17 +182,16 @@ $('.play-again-btn').click(function() {
 
 // --- WIN GAME ---
 function winGame () {
-    
     if (scoreCounter=== 9) {
         $('#VictoryAudio')[0].currentTime = 0;
         $('#VictoryAudio')[0].play();
         $('#WinModal').modal('show');
+        document.getElementById('win-moves').innerHTML = 'Moves: ' + moveCounter;
+        document.getElementById('win-time').innerHTML = 'Timer: ' + timeCounter;
         return true;
     }
     return false;
 }
-
-
 
 function resetBoard() {
     [hasFlippedCard, lockBoard] = [false, false];
@@ -206,8 +205,6 @@ function shuffleCards(){
         let randomPos = Math.floor(Math.random()*18);
         card.style.order = randomPos;
     });
-    
-
 }
 
 

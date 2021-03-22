@@ -295,11 +295,11 @@ header {
 
     .Win-Score {
         padding: 10px;
-        margin: 1px 40px;
+        margin: 1px 45px;
         color: #fff;}
 
     .Win-Score span {
-        margin: 0 18px;}
+        margin: 0 2px;}
 
     .modal-title {
         font-size: 2.5rem;
@@ -348,7 +348,7 @@ header {
         margin: 1px 80px;}
 
     .Win-Score span {
-        margin: 0 25px;}
+        margin: 0 20px;}
 }
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 

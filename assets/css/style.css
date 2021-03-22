@@ -8,15 +8,10 @@ body {
     background-image: url("../../assets/images/PokeWallpaper2.png");
     background-position: center;
     background-repeat: no-repeat;
-    position: relative;
-}
+    position: relative;}
 
 header {
-    margin: 5px 10% 15px 10%;
-    
-}
-
-
+    margin: 5px 10% 15px 10%;}
 
 .score {
     width: 100% !important;
@@ -24,23 +19,18 @@ header {
     background-color: #2288ee;
     padding: 12px ;
     margin: 10px 0 0 0;
-    border-radius: .6rem;
-    /* display: none; */
-}
+    border-radius: .6rem;}
 
 #logo img {
     width: 95%;
-    padding-top: 20px;
-}
+    padding-top: 20px;}
 
 img {
-    width: 100px;
-}
+    width: 100px;}
 
 .board-container {
     display: flex;
-    justify-content: center;
-}
+    justify-content: center;}
 
 .board-game {
     border: 1px solid #04467c;
@@ -53,9 +43,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    perspective: 1000px;
-}
-
+    perspective: 1000px;}
 
 .memory-card {
     width: 14%;
@@ -67,18 +55,15 @@ img {
     box-shadow: 3px 2px 8px 0 rgba(5, 48, 83, 0.822);
     transform: scale(1);
     transform-style: preserve-3d;
-    transition: transform .5s;
-}
+    transition: transform .5s;}
 
 /* CLICK  Effect*/
 .memory-card:active {
     transform: scale(.97);
-    transition: transform .2s;
-}
+    transition: transform .2s;}
 
 .memory-card.flip {
-    transform: rotateY(180deg);
-}
+    transform: rotateY(180deg);}
 
 .front-face,
 .back-face {
@@ -86,17 +71,23 @@ img {
     height: 100%;
     position: absolute;
     border-radius: 0.65em;
-    backface-visibility: hidden;
-}
+    backface-visibility: hidden;}
 
 .front-face {
-    transform: rotateY(180deg);
-}
+    transform: rotateY(180deg);}
 
+
+/* --- MODAL --- */
 .my-modal-title {
     padding-top: 1rem; }
 
+#WinModal {
+    justify-content: center;
+    align-items: center;}
 
+#WinModal img {
+    width: 400px;
+    height: 400px;}
 
 .info-modal-background {
     background-image: url("../../assets/images/Pokeball-bg.jpg");
@@ -116,8 +107,7 @@ img {
     font-weight: 100;
     color: #FFDE00;
     padding: 15px;
-    text-align: center;
-}
+    text-align: center;}
 
 .userInfoModalForm img {
     border: 5px solid #053053;
@@ -132,17 +122,12 @@ img {
     font-size: 1.5em;
 } 
 
-/* .row, .container-fluid {
-    margin-left: 0;
-    margin-right: 0; } */
-
 .form-check-input {
     margin-top: 0;
     margin-left: 0; }
+
     
-/* -- MODAL BUTTON -- */
-
-
+/* --- MODAL BUTTON --- */
 .btn-pokeball {
     background-color: #FFDE00;
     color: #053053;
@@ -190,7 +175,9 @@ img {
     }
 }
 
-/* BREAKPOINTS */
+
+
+/* --- BREAKPOINTS ---*/
 /* // Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) { 
     .board-game {

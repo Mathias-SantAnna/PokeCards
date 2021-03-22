@@ -25,7 +25,7 @@ The main goal of **PokeCards** is to provide a simple, fun and intuitive game to
 - PokeCards includes positive audio awards to promote fun and expanding learning.
 - A reset button enabling the player to continuously enjoy the game.
 - The overall construction of PokeCards is children-friendly.
-- Optically appelling and fully-functioning game.
+- Optically appealing and fully-functioning game.
 
 ### **Developer Goals**
 

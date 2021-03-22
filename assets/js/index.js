@@ -25,7 +25,16 @@ $('#userInfoModal').modal('show');
                 });
         }, 500);
     }
+    ButtonClick
+// play button click audio on all button elements
+$('.btn').click(function() {
+    playButtonAudio();
+});
 
+function playButtonAudio() {
+    $('#ButtonClick')[0].currentTime = 0;
+    $('#ButtonClick')[0].play();
+}
 
 function resetGame(){
     stopTime();

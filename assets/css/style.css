@@ -180,6 +180,7 @@ header {
     font-size: 2em;
     font-family: 'Acme', 'Montserrat', sans-serif;
     margin-left: 20%;
+    margin-right: 20%;
     width: 60%;
     letter-spacing: 1.5px;
     -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.4);

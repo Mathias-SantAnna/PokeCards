@@ -136,7 +136,7 @@ function disableCards() {
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
 }
-
+    
 function unflipCards() {
     lockBoard = true;
 

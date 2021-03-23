@@ -267,6 +267,71 @@ All steps on desktop had been repeated in browsers: Firefox, Chrome and Edge and
 ### ADD SOMETHING
 
 ---
+### Bugs discovered: 
+#### Solved bugs
+1. **Clicking the cards really fast caused too may cards to be face up.**
+
+- Though my function to check a card match was set to activate when two cards were selected, clicking fast meant that 3 or more cards could be flipped over before the check for a match had been done.
+    - Fix: Create a function to remove the event Listener to prevent the cards to be clicked again if it's a match. If it's not will be flipped back again.
+
+```javascript
+function disableCards() {
+    firstCard.removeEventListener('click', flipCard);
+    secondCard.removeEventListener('click', flipCard);
+}
+```
+- In case it's not a match, when try to open a second pair of cards before the first one flips back crash the logic.
+    - Fix: Create a function to lock the board till the cards have been flipped back.
+
+```javascript
+let lockBoard = false;
+
+function flipCard() {
+	if (firstClick){
+        firstClick = false;
+		startTimerCount();
+	}
+	
+    if (lockBoard) return;
+    if (this === firstCard) return;
+    
+    this.classList.add('flip');
+    
+    if (!hasFlippedCard) {
+        //first click
+        $('#FlipAudio')[0].currentTime = 0;
+        $('#FlipAudio')[0].play();
+        hasFlippedCard = true;
+        firstCard = this;
+
+        return;
+    } 
+    //second click
+    hasFlippedCard = false;
+    secondCard = this;
+    $('#FlipAudio')[0].currentTime = 0;
+    $('#FlipAudio')[0].play();
+    checkForMatch();
+    moveCounter = moveCounter + 1;
+    document.getElementById('moves').innerHTML = 'Moves: ' + moveCounter;   
+}
+function unflipCards() {
+    lockBoard = true;
+
+    setTimeout(() => {
+        firstCard.classList.remove('flip');
+        secondCard.classList.remove('flip');
+        
+        resetBoard();
+    }, 1200);
+}
+
+#### Unsolved bugs
+
+1. **Audio bugs in Chrome**
+
+    - The Chrome browser sometimes delays some of the sounds. I haven't found the way around yet.
+
 ### Testing undertaken on tablet and make contact with devices
 
 - All steps beneath had been repeated to check mobile specific elements at the developers several iPhones and Android telephones and tablet. 

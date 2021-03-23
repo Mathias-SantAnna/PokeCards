@@ -1,4 +1,7 @@
-# Table of Contents
+# PokeCards - Memory Card Game
+<div align="center">
+    <img src="https://i.ibb.co/mN6nYwf/Site-Mockup.jpg" alt="Screenshot: PokeCards Site Mockup" >
+</div>
 
 ---
 

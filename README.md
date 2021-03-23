@@ -1,4 +1,9 @@
-# PokeCards - Memory Card Game
+# 
+<h1 align="center">PokeCards - Memory Card Game</h1>
+
+[View the live project here.](https://mathias-santanna.github.io/PokeCards/)
+
+This website was created for the purpose of completing the second Milestone Project for the Code Institute's Full Stack Developer course. But also for my nephews, to have some fun and memory improvement, which we miss so much.
 
 <div align="center">
     <img src="https://i.ibb.co/mN6nYwf/Site-Mockup.jpg" alt="Screenshot: PokeCards Site Mockup" >

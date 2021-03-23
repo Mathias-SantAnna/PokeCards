@@ -239,6 +239,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Media
 
 #### Images
+
 - The logo image was created using [Canva](https://www.canva.com/).
 
 - The images for the pokemon pick were sourced from [Pinterest](https://www.pinterest.ie/pin/351912457196612/), [Pinterest](https://www.pinterest.ie/pin/720364902878863673/)
@@ -248,9 +249,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 
 #### Audio
+
 - Audio files such as flip, match, and victory was sourced from [Myinstants](https://www.myinstants.com/).
 - The Button click audio file is from [Mixkit](https://mixkit.co/free-sound-effects/game-over/).
-
 
 ### Content
 

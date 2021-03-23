@@ -150,15 +150,17 @@ The following wireframes were produced using Balsamiq program and it was develop
 
 - **Programming Languages:** this project was built using HTML, CSS and JavaScript.
 
-- **Bootstrap:** in order to simplify the coding presented in this project it was necessary to use this program.
+- **[Bootstrap](https://getbootstrap.com/):** in order to simplify the coding presented in this project it was necessary to use this program.
 
-- **GitHub:** This project uses GitHub to be stored and shared to its target audience providing access to its code remotely.
+- **[GitHub](https://github.com/):** This project uses GitHub to be stored and shared to its target audience providing access to its code remotely.
 
-- **JQuery:** This project uses JQuery to facilitate DOM adminstration.
+- **[JQUERY](https://jquery.com/):** This project uses JQuery to facilitate DOM adminstration.
 
-- **Google Fonts:**  All the font styles used in this project was provided by Google Fonts.
+- **[Google Fonts](https://fonts.google.com/):**  All the font styles used in this project was provided by Google Fonts.
 
-- **Canva**: this project uses this tool on its images searching, editing, cropping and saving them.  [Canva](https://www.canva.com/pt_pt/)
+- **[Canva](https://www.canva.com/pt_pt/):** this project uses this tool on its images searching, editing, cropping and saving them.  
+- **[Imgbb](https://imgbb.com//):** Images such as wireframes are outside stored here.  
+- **[Red Ketchup](https://redketchup.io/gif-resizer):** this project uses this tool for images resizing and compressing.  
 
 ## Testing
 
@@ -223,13 +225,32 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
-- The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+- The full-screen hero image code came from this [Wallpaper Wide](http://wallpaperswide.com/pokemon_pokeball_red-wallpapers.html)
 
-- [Bootstrap4](https://getbootstrap.com/docs/4.5/examples/blog/): Blog Post Template code copied and modified.
+- [OurCodeSolution](https://ourcodesolution.com/blog/card-matching-game-memory-card-game-in-javascript/): Blog Post code copied, modified, to adapt for my needs.
 
-- [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+- [FreeCodeCamp - Memory Card Game Tutorial](https://youtu.be/ZniVgo8U7ek): Video Tutorial code copied, modified, to adapt for my needs.
 
-- [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+- [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+- [Bootstrap4](https://getbootstrap.com/docs/4.6/components/modal/): Bootstrap MODAL Library used throughout the project mainly to make modals.
+- [StackOverflow](https://stackoverflow.com): Used many times for understanding better Javascript functions and more.
+- [w3schools.com](https://www.w3schools.com/html/html5_audio.asp): Used  for understanding better how the audio element works, between JS and.
+
+### Media
+
+#### Images
+- The logo image was created using [Canva](https://www.canva.com/).
+
+- The images for the pokemon pick were sourced from [Pinterest](https://www.pinterest.ie/pin/351912457196612/), [Pinterest](https://www.pinterest.ie/pin/720364902878863673/)
+- The Champion image used was sourced from [Lukasthadeuart](https://www.deviantart.com/lukasthadeuart/art/Congratulations-Ash-V2-813484243).
+- Copyright for the memory card images belong to [EdwinSantander59](https://www.deviantart.com/edwinsantander59/) and [Plattyneko](https://www.deviantart.com/plattyneko).
+- The images used for the back of the memory cards, background wallpaper, and UserInfo Modal were obtained from [Google Images](https://www.google.com/imghp?hl=en) and strictly used for educational purposes.
+
+
+#### Audio
+- Audio files such as flip, match, and victory was sourced from [Myinstants](https://www.myinstants.com/).
+- The Button click audio file is from [Mixkit](https://mixkit.co/free-sound-effects/game-over/).
+
 
 ### Content
 

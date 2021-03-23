@@ -205,7 +205,7 @@ The following segment is going via every of the consumer testimonies from the UX
 
     - A “bing” sound is performed whilst a accurate healthy is found, applause and cheering is heard whilst a recreation has been completed.
 
-4. **Visual icons and pix that I recognise, in order that I recognize once I have done some thing withinside the recreation. For instance stars out of five, and a trophy for excessive rating.**
+4. **Visual icons and pix that I recognize, in order that I recognize once I have done some thing withinside the recreation. For instance stars out of five, and a trophy for excessive rating.**
 
     - Win modals show the participant’s Score and a trophy is likewise proven when the participant win the game.
 

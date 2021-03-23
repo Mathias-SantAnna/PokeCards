@@ -1,4 +1,5 @@
 # PokeCards - Memory Card Game
+
 <div align="center">
     <img src="https://i.ibb.co/mN6nYwf/Site-Mockup.jpg" alt="Screenshot: PokeCards Site Mockup" >
 </div>
@@ -15,7 +16,7 @@
 
   ---
 
-2.  [**Features**](###9.-Features)
+2. [**Features**](###9.-Features)
     - *Welcoming Modal Pop-up*
     - *Score Board*
     - *Game Panel and Cards*
@@ -218,7 +219,7 @@ The following segment is going via every of the consumer testimonies from the UX
         - It will now no longer create bizarre presentations if the game is reset at sudden times. For instance whilst an peculiar wide variety of playing cards are flipped over.
 
 ## Manual testing
-Below is an in depth account of all of the manual checking out that has been carried out to verify all areas of the webweb page work as expected. 
+Below is an in depth account of all of the manual checking out that has been carried out to verify all areas of the web page work as expected. 
 
 ### Testing undertaken on desktop
 
@@ -329,7 +330,7 @@ function unflipCards() {
 ```
 
 - Double click. In case that clicks too fast on the same card, in this case is match is evaluate true and disable the cards by removing the event listener.
-  - Fix: Add a condition to beggining of flipcard function, and set resetBoard function as it set flippedCard, lockBoard to false and to set first,second card to null. As FlipCard function from above
+  - Fix: Add a condition to beginning of flipcard function, and set resetBoard function as it set flippedCard, lockBoard to false and to set first,second card to null. As FlipCard function from above
 
 ```javascript
   function resetBoard() {

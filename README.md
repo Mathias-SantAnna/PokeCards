@@ -87,11 +87,11 @@ Neatly developed programming that helps children to increase their memory and sp
 
 As a player aged 5 years or more possible a Pokemon's fan, I wish:
 
-- The possibility to quickly find and comprehend the controls for the game, to easily operate it.
-- Attractive and large buttons that are easy to be used on any device.
-- Audio or visual response while playing the game, so I can associate each move to an action understanding when I clicked something or when I have matched my cards.
-- The chance to find my favorite characters and Pokemons so I can engage the game.
-- Helpful audio feedback to indicate that I completed a stage in the game.
+- The possibility to quickly find and comprehend the controls for the game, in order that I can perform them without problems.
+- Audio and/or visible response when I play the game, to realize when I have clicked something.
+- Practical large buttons that are easy to be used on any device.
+- Visual icons and images that I recognize, to find my favorite characters and Pokemons so I can engage the game..
+- A game that will not break as I use it.
 
 ### **Design Description**
 
@@ -199,29 +199,32 @@ The following segment is going via every of the consumer testimonies from the UX
 
 **As a player, I want:**
 
-1. **The capacity to without problems discover and recognize the controls for the game, in order that I can perform them without problems.**
+1. **The possibility to quickly find and comprehend the controls for the game, in order that I can perform them without problems.**
 
-    - All the controls are withinside the dashboard, that is at the left facet of the display on medium to huge devices, and on the pinnacle of the display on mobiles. 
-    - All the controls depend upon symbols and colors earlier than any phrases to talk their purpose. 
-    - The start and reset buttons use traditional icons to indicate their meaning.
-2. **Audio and/or visible comments after I play the game, in order that I realize after I have clicked or now no longer clicked something.**
+    - All the controls are withinside the dashboard, that is at the left facet of the display on medium to huge devices, and on the pinnacle of the display on mobiles.
+    - All the controls depend upon symbols and colors earlier than any phrases to talk their purpose.
+    
+2. **Audio and/or visible response when I play the game, to realize when I have clicked something.**
 
-    - When every button on the game is pressed there may be a visible queue that it's been clicked in addition to a clicking audio report that performs too.
-    - When a card is clicked first to offer the impact of being pressed down, then it flips over with a fulfilling animation and card flipping sound.
-3. **Positive audio remarks once I entire a step withinside the recreation (as an example once I discover a matching pair of cards), due to the fact this will increase my leisure from playing.**
+    - When every button on the game is pressed, a clicking audio report that performs.
+    - When a card is clicked first to offer the impact of being clicked, then it flips over with a fulfilling animation and card flipping sound.
+    
+3. **Practical large buttons that are easy to be used on any device**
 
-    - A “bing” sound is performed whilst a accurate healthy is found, applause and cheering is heard whilst a recreation has been completed.
+    - All the buttons and icons use vivid colors to indicate their meaning and use.
 
-4. **Visual icons and pix that I recognize, in order that I recognize once I have done some thing withinside the recreation. For instance stars out of five, and a trophy for excessive rating.**
-
+4. **Visual icons and images that I recognize, to find my favorite characters and Pokemons so I can engage the game.**
+    - Attractive cards images that get my attention and help to engage the game to see them all.
     - Win modals show the participant’s Score and a trophy is likewise proven when the participant win the game.
+    - When finished the game, helpful audio feedback to indicate that I completed a stage in the game.
 
-5. **A game that might not spoil as I use it**
+5. **A game that will not break as I use it**
 
-    - It has been programmed with the manner a infant could use it in mind.
+    - It has been programmed with the manner a kid could use it in mind.
+        - In User Info Modal, there is no requirement of selecting name or pokemon, so they can start the game right away.
         - When deciding on playing cards to match, no extra than 2 playing cards may be decided on at one time. 
         - The game can't be damaged when the user clicks the cards very speedy to turn extra than 2 over at a time.
-        - It will now no longer create bizarre presentations if the game is reset at sudden times. For instance whilst an peculiar wide variety of playing cards are flipped over.
+        - It doesn't create weird presentations if the game is reset. For instance a peculiar wide variety of playing cards are flipped over.
 
 ## Manual testing
 Below is an in depth account of all of the manual checking out that has been carried out to verify all areas of the web page work as expected. 

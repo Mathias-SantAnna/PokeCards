@@ -15,15 +15,12 @@ var firstClick = true;
 const reset = document.querySelector(".reset-btn");
 
 
-$('#userInfoModal').modal('show');
-    if (1==1) {
-        setTimeout(function() {
-                $("#userInfoModal").modal({
+$( document ).ready(function() {
+    $("#userInfoModal").modal({
                     backdrop: 'static',
                     keyboard: false
                 });
-        }, 500);
-    }
+});
 
 // play button click audio on all button elements
 $('.btn').click(function() {

@@ -214,7 +214,67 @@ The following segment is going via every of the consumer testimonies from the UX
     - It has been programmed with the manner a infant could use it in mind.
         - When deciding on playing cards to match, no extra than 2 playing cards may be decided on at one time. 
         - The game can't be damaged when the user clicks the cards very speedy to turn extra than 2 over at a time.
-        - It will now no longer create bizarre presentations if the sport is reset at sudden times. For instance whilst an peculiar wide variety of playing cards are flipped over.
+        - It will now no longer create bizarre presentations if the game is reset at sudden times. For instance whilst an peculiar wide variety of playing cards are flipped over.
+
+## Manual testing
+Below is an in depth account of all of the manual checking out that has been carried out to verify all areas of the webweb page work as expected. 
+
+### Testing undertaken on desktop
+
+All steps on desktop had been repeated in browsers: Firefox, Chrome and Edge and on  exceptional desktop display screen sizes.
+
+1. Player info modal
+    - Opened the game in a modern browser, and affirm that the participant data modal is mechanically released.
+    - Closed the web page with out inputting any information, the reopened the web page and confirmed that the participant data modal is released. 
+    - Closed the web page with best one of the  fields stuffed out, showed that on reloading the participant data modal remains released.
+    - Confirmed that the modal will now no longer near and indicators are given to manual the participant to fill out each fields. 
+    - Chose call and pokemon from the three choices, closed the modal with out hitting submit, showed that the modal is released once more on reloading the web page. 
+    - Hovered my mouse over every factor of the participant data modal to test that every one the applicable descriptions for display screen readers had been displaying up. 
+
+2. Scoreboard
+    1. Player info display
+        - Confirmed that the rating, timer and movements are displayed effectively at the participant dashboard.
+    2. Reset button
+        - Played the game so numerous playing cards had been face up, then clicked the reset button to verify that the face up playing cards had been flipped again over. 
+        - Confirmed that the turns counter in the game is likewise reset to zero.
+        - Confirmed that even if an unusual quantity of playing cards are face up, whilst the reset button is clicked the turns counter is reset to zero.
+        - Played the game once more to verify that the playing cards were shuffled. 
+        - Played the game so I had a few excessive rankings, pressed the reset button and showed that the excessive rankings had been now no longer affected.
+    3. Moves counter
+        - Played the game and showed that the turns counter will increase through one for over  playing cards flipped over. 
+        - Confirmed that clicking the playing cards absolutely speedy does now no longer wreck the turns counter.
+        - Confirmed that the turns counter is reset to zero whenever the game is reset (the usage of issue buttons, individual desire buttons or reset button).
+        - Confirmed that if the game is closed and reopened, the turns counter is likewise reset to zero. 
+3. Playing the game
+    - Confirmed that once  playing cards are flipped over, the game exams in the event that they in shape.
+    - If they in shape, showed that the right in shape sound is played, and the playing cards continue to be face up and can't be clicked once more. 
+    - If they do not in shape, showed that the game flips the playing cards again over after a delay, in order that the participant can see what become at the second card. 
+    - Confirmed that clicking the playing cards absolutely speedy does now no longer motive mistakes with too many playing cards being face up at once.
+    - Confirmed that clicking the playing cards absolutely speedy does now no longer motive the cardboard flipping audio sound to wreck.
+    - Played the game to completion, showed that the game launches the right win modal for the rating achieved. 
+4. Info modal
+    - Confirmed that the data modal is displayed effectively. 
+    - Confirmed that every one textual content is readable.
+    - Clicked the crimson hand icon to verify that the parental test modal is released from it effectively, and that this closes the data modal on the equal time.
+    - Reopened the data modal and showed that clicking the near button closes the modal. 
+
+5. Win modal
+    - Played the game to showed that the win modal is released. 
+    - Confirmed that the win modal shows the right statistics for Moves, and Time.
+    - Confirmed that the win audio report performs whilst the modal is released. 
+    - Confirmed that clicking the near button closes the modal and reset the game.
+6. Footer tab 
+### ADD SOMETHING
+
+---
+### Testing undertaken on tablet and make contact with devices
+
+- All steps beneath had been repeated to check mobile specific elements at the developers several iPhones and Android telephones and tablet. 
+And additionally withinside the Chrome Developer Tools tool simulators on all alternatives and orientations.
+- Checked the participant data modal suits on small and medium monitors easily.
+- Confirmed that font sizes are responsive so display screen length so it's miles displayed in a manner that every one customers can use.
+- Confirmed fields and buttons are huge sufficient to click on easily, however small sufficient to healthy without problems at the display screen.
+- Checked that participant data shows effectively on smaller monitors, now no longer an excessive amount of space, and no squashing or overlapping of factors even on smallest monitors.
 
 ## Deployment
 

@@ -1,6 +1,6 @@
 #
 
-<h1 align="center">PokeCards - Memory Card Game</h1>
+<h1 align="center"><strong>PokeCards</strong> - Memory Card Game</h1>
 
 [View the live project here.](https://mathias-santanna.github.io/PokeCards/)
 
@@ -55,11 +55,11 @@
 
 ## The Memory Game
 
-<p align="justify">**PokeCards** is an interactive and enjoyable memory card game created for children from 5 years old. The game includes entertaining sounds with attractive gif cards and a friendly interface very easy to operate. The opening selection of the characters *Misty, Brock and Ash* and Pokemons (Charmander, Pikachu, and Squirtle) refers to the main script of the game/cartoon Pokemon engaging, even more, it's fans.</p>
+<p align="justify"><strong>PokeCards</strong> is an interactive and enjoyable memory card game created for children from 5 years old. The game includes entertaining sounds with attractive gif cards and a friendly interface very easy to operate. The opening selection of the characters *Misty, Brock and Ash* and Pokemons (Charmander, Pikachu, and Squirtle) refers to the main script of the game/cartoon Pokemon engaging, even more, it's fans.</p>
 
 ## **Project Goals**
 
-<p align="justify">The main goal of **PokeCards** is to provide a simple, fun and intuitive game to contribute to children's entertainment and its development. **PokeCards** target audience is children from 5 years old and Pokemon's fans. Even though **PokeCards** was primarily built for children it also considered the parental involvement and participation helping the child to initiate and use the game. Because the game was developed to improve and develop children's memory and spatial ability it is clear that the game is also meeting the parents goals.</p>
+<p align="justify">The main goal of <strong>PokeCards</strong> is to provide a simple, fun and intuitive game to contribute to children's entertainment and its development. <strong>PokeCards</strong> target audience is children from 5 years old and Pokemon's fans. Even though <strong>PokeCards</strong> was primarily built for children it also considered the parental involvement and participation helping the child to initiate and use the game. Because the game was developed to improve and develop children's memory and spatial ability it is clear that the game is also meeting the parents goals.</p>
 
 ### **Player Goals are**
 
@@ -72,7 +72,7 @@ es to have fun.
 - Accessible game controls to manage.
 - Amusing images and sounds to enjoy.
 
-**PokeCards** was specifically built to meet player's needs taking into account each mentioned goal by providing:
+<strong>PokeCards</strong> was specifically built to meet player's needs taking into account each mentioned goal by providing:
 
 - A grouped controls to manage.  
 - Large icons, thematic and colorful buttons to captivate children's attention without focusing too much on words that children are still not able to fully read.
@@ -83,7 +83,7 @@ es to have fun.
 
 ### **Developer Goals**
 
-<p align="justify">Neatly developed programming that helps children to increase their memory and spatial awareness through a fun and intuitive game. **PokeCards** was developed and tested to ensure that the game cannot be cracked by fast clicking in random areas for example. A professional appearance primarily accessing the world of JavaScript, HTML, and CSS. The developer also sees the project as a great opportunity to increase his portfolio.</p>
+<p align="justify">Neatly developed programming that helps children to increase their memory and spatial awareness through a fun and intuitive game. <strong>PokeCards</strong> was developed and tested to ensure that the game cannot be cracked by fast clicking in random areas for example. A professional appearance primarily accessing the world of JavaScript, HTML, and CSS. The developer also sees the project as a great opportunity to increase his portfolio.</p>
 
 ### **User Stories**
 
@@ -97,7 +97,7 @@ As a player aged 5 years or more possible a Pokemon's fan, I wish:
 
 ### **Design Description**
 
-<p align="justify">**PokeCards** design choice was inspired by the Pokemon cartoon. It was developed to attract its fans. It includes specific Pokemon features such as the card layout which was based on the Pokeball from the cartoon. It presents the main characters to be chosen as a player followed by three options of the most famous Pokemons to be selected. The cards for the memory game were carefully chosen to captivate Pokemons fans with great quality in the image.</p>
+<p align="justify"><strong>PokeCards</strong> design choice was inspired by the Pokemon cartoon. It was developed to attract its fans. It includes specific Pokemon features such as the card layout which was based on the Pokeball from the cartoon. It presents the main characters to be chosen as a player followed by three options of the most famous Pokemons to be selected. The cards for the memory game were carefully chosen to captivate Pokemons fans with great quality in the image.</p>
 
 **1. Fonts**
 
@@ -130,7 +130,7 @@ Cards and chart boxes were drawn with round corners to bring a soft and friendly
 
 **7. Audio Directory**
 
-<p align="justify">**PokeCards** is directed by animated audios to indicate if the move was a match of cards or a random flip of them facilitating children's to operate the game. A nice and fun audio is added into the clicking buttons to signal the navigation to the children. There is also an audio for when the time is up and the game over warning comes up. The victory audio is also available motivating the player to keep practicing their memory skills with the game.</p>
+<p align="justify"><strong>PokeCards</strong> is directed by animated audios to indicate if the move was a match of cards or a random flip of them facilitating children's to operate the game. A nice and fun audio is added into the clicking buttons to signal the navigation to the children. There is also an audio for when the time is up and the game over warning comes up. The victory audio is also available motivating the player to keep practicing their memory skills with the game.</p>
 
 ### **Wireframes**
 
@@ -142,7 +142,7 @@ The following wireframes were produced using Balsamiq program and it was develop
 
 ### **Features**
 
-<p align="justify">- *Welcoming User Info Modal Pop-up:* **PokeCards** opening page there is a welcome modal pop-up inviting the player to select their favorite character from the three main famous ones from Pokemon cartoon called *Misty, Brock and Ash* followed by the choice of three classic Pokemons: Charmander, Pikachu, and Squirtle. This modal is not a compulsory choice the player is allowed to select the "Let's Go" button straight away the intention of this modal is simply to attract Pokemon fans but not limit the game to them.</p>
+<p align="justify">- *Welcoming User Info Modal Pop-up:* <strong>PokeCards</strong> opening page there is a welcome modal pop-up inviting the player to select their favorite character from the three main famous ones from Pokemon cartoon called *Misty, Brock and Ash* followed by the choice of three classic Pokemons: Charmander, Pikachu, and Squirtle. This modal is not a compulsory choice the player is allowed to select the "Let's Go" button straight away the intention of this modal is simply to attract Pokemon fans but not limit the game to them.</p>
 
 <div align="center">
     <img src="https://i.ibb.co/ZxLhdMN/User-Info-Modal.jpg" alt="Screenshot: User Info Modal" >
@@ -197,7 +197,7 @@ The following validation services and linter were used to check the validity of 
 
 ## User stories testing
 
-The following segment is going via every of the consumer testimonies from the UX ReadMe segment.
+The following segment is going via every of the user testimonies from the UX ReadMe segment.
 
 **As a player, I want:**
 
@@ -275,10 +275,19 @@ All steps on desktop had been repeated in browsers: Firefox, Chrome and Edge and
     - Confirmed that the win modal shows the right statistics for Moves, and Time.
     - Confirmed that the win audio report performs whilst the modal is released. 
     - Confirmed that clicking the near button closes the modal and reset the game.
-6. Footer tab 
-### ADD SOMETHING
+6. Footer 
+    - To see who is the developer and his work
 
----
+# Testing Process
+
+After the conclusion of the main structure of the project the validation process started. To check the acceptance of the website code the following systems were used:
+
+1. W3C Markup Validation for HTML
+
+2. W3C CSS Validation for CSS
+
+3. JSHint for JavaScript
+
 ### Bugs discovered: 
 #### Solved bugs
 1. **Clicking the cards really fast caused too may cards to be face up.**
@@ -461,48 +470,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - Tutor support at Code Institute for their support.
 
- They provided regularly point new contributors to documentation and submits pull requests to improve the guidance when the area was looking unclear. Answering my requests on time enabling me to improve my knowledge during the whole process of contributing smoother.
-
-# Testing Process
-
-After the conclusion of the main structure of the project the validation process started. To check the acceptance of the website code the following systems were used:
-
-1. W3C Markup Validation for HTML
-
-2. W3C CSS Validation for CSS
-
-3. JSHint for JavaScript
-
-## Target Audience Testing
-
-In this section, it will be analyzed the expected wishes raised in the User Stories presented in the README file for this project.
-
-1. The possibility to quickly find and comprehend the controls for the game, to easily operate it.
-
-- The possibility of the player select the "Let's Go!" button straight away not necessarily picking any character or Pokemon is the proof of accessibility of the game. This initial stage of the game was tested many times to ensure that any selection of character and Pokemon or either the skip option of this section will not influence the performance of the game. No glitches were found.
-
-- The Score Board is clean and neat bringing functionality to the game. The timer was tested many times to ascertain how many seconds the target audience needed to complete the game and also if it was working fine showing the proposed game over warning message.
-
-- The interface as a whole is achieving its purpose of communicating with the children and engaging them into the thematic world of **PokeCards**.
-
-2. Attractive and large buttons that are easy to be used on any device.
-
-- The large and colorful buttons to start or restart the game are easy and attractive captivating children's attention. All buttons were tested on all devices, it is working fine.
-
-3. Audio or visual response while playing the game, so I can associate each move to an action understanding when I clicked something or when I have matched my cards.
-
-- The audios' choice was picked based on Pokemon's soundtrack. A full checking of each click and each flip of the card was performed passing the test.
-
-- The audio evaluation was run as well for the victory and game-over sounds. It is perfectly feasible.
-
-4. The chance to find my favorite characters and Pokemons so I can engage the game.
-
-- All the pokecards presented in the game are very alluring with a good range of Pokemons.
-
-- The speed to flip each card was tested. The whole performance of the game is developed under the Pokemon's cartoon pleasing its fans.
-
-5. Helpful audio feedback to indicate that I completed a stage in the game.
-
-- A "bell" sound is played for a random appearance of cards and a "happier" sound is played when a correspondent match card is flipped. This sound feedback was extensively tested to check if there was any possible delays. But it was working according to programmed.
-
-- The button's sounds are also very helpful to indicate a right move. It is also working fine.
+- Fellow friends, that helped me throughout the project as [Fabio Araujo](https://github.com/fabioaraujo76 ), and Vini Xavier.

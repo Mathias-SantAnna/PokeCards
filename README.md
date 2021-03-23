@@ -16,7 +16,7 @@ This website was created for the purpose of completing the second Milestone Proj
     - [**Project Goals**](##project-goals)
     - [**Player goals**](##player-goals-are)
     - [**Developer Goals**](###developer-Goals)
-    - [**User Stories**](###user-Stories)
+    - [**User Stories**](###User-Stories)
     - [**Design Stories**](###design-Stories)
     - [**Wireframes**](#wireframes)
 
@@ -55,7 +55,7 @@ This website was created for the purpose of completing the second Milestone Proj
 
 ## The Memory Game
 
-**PokeCards** is an interactive and enjoyable memory card game created for children from 5 years old. The game includes entertaining sounds with attractive gif cards and a friendly interface very easy to operate. The opening selection of the characters *Misty, Brock and Ash* and Pokemons (Charmander, Pikachu, and Squirtle) refers to the main script of the cartoon Pokemon engaging, even more, its fans.
+**PokeCards** is an interactive and enjoyable memory card game created for children from 5 years old. The game includes entertaining sounds with attractive gif cards and a friendly interface very easy to operate. The opening selection of the characters *Misty, Brock and Ash* and Pokemons (Charmander, Pikachu, and Squirtle) refers to the main script of the game/cartoon Pokemon engaging, even more, it's fans.
 
 ## **Project Goals**
 

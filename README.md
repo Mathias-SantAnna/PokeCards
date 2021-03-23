@@ -17,12 +17,12 @@ This website was created for the purpose of completing the second Milestone Proj
     - [**Player goals**](##player-goals-are)
     - [**Developer Goals**](###developer-Goals)
     - [**User Stories**](###User-Stories)
-    - [**Design Stories**](###design-Stories)
-    - [**Wireframes**](#wireframes)
+    - [**Design Description**](###design-Description)
+    - [**Wireframes**](###wireframes)
 
   ---
 
-2. [**Features**](###9.-Features)
+2. [**Features**](##Features)
     - *Welcoming Modal Pop-up*
     - *Score Board*
     - *Game Panel and Cards*
@@ -61,11 +61,12 @@ This website was created for the purpose of completing the second Milestone Proj
 
 The main goal of **PokeCards** is to provide a simple, fun and intuitive game to contribute to children's entertainment and its development. **PokeCards** target audience is children from 5 years old and Pokemon's fans. Even though **PokeCards** was primarily built for children it also considered the parental involvement and participation helping the child to initiate and use the game. Because the game was developed to improve and develop children's memory and spatial ability it is clear that the game is also meeting the parents goals.
 
-### **Players Goals are**
+### **Player Goals are**
 
 - Enjoyable game to play.
 - Friendly interface to use.
-- Remarkable Pokemon features to have fun.
+- Remarkable Pokemon 
+es to have fun.
 - Large cards and buttons facilitating children to operate.
 - Easy clickable areas to engage the game.
 - Accessible game controls to manage.
@@ -131,7 +132,7 @@ The quality of the gif cards was highly considered in this project to amuse the 
 
 **PokeCards** is directed by animated audios to indicate if the move was a match of cards or a random flip of them facilitating children's to operate the game. A nice and fun audio is added into the clicking buttons to signal the navigation to the children. There is also an audio for when the time is up and the game over warning comes up. The victory audio is also available motivating the player to keep practicing their memory skills with the game.
 
-**8. Wireframes**
+### **Wireframes**
 
 The following wireframes were produced using Balsamiq program and it was developed in the planning phase of this project.
 
@@ -139,7 +140,7 @@ The following wireframes were produced using Balsamiq program and it was develop
 - [Wireframe Tablet & Mobile](https://i.ibb.co/Z2QgXks/Wireframe-Tablet.jpg)
 - [Wireframe Victory Modal](https://i.ibb.co/z7s8MDR/Wireframe-Tablet-Victory-Modal.jpg)
 
-### **9. Features**
+### **Features**
 
 - *Welcoming User Info Modal Pop-up:* **PokeCards** opening page there is a welcome modal pop-up inviting the player to select their favorite character from the three main famous ones from Pokemon cartoon called *Misty, Brock and Ash* followed by the choice of three classic Pokemons: Charmander, Pikachu, and Squirtle. This modal is not a compulsory choice the player is allowed to select the "Let's Go" button straight away the intention of this modal is simply to attract Pokemon fans but not limit the game to them.
 

@@ -2,16 +2,17 @@
 
 ---
 
-1. [**PokeCards - The Memory Card Game**](#pokecards)
+1. [**User Experience - UX**](#pokecards)
     - [**Project Goals**](##project-goals)
     - [**Player goals**](##player-goals-are)
     - [**Developer Goals**](###developer-Goals)
     - [**User Description**](###user-Description)
     - [**Design Description**](###design-Description)
+    - [**Wireframes**](#wireframes)
 
   ---
 
-2. - [**Features**](###9.-Features)
+2.  [**Features**](###9.-Features)
     - *Welcoming Modal Pop-up*
     - *Score Board*
     - *Game Panel and Cards*
@@ -130,15 +131,17 @@ The following wireframes were produced using Balsamiq program and it was develop
 
 ### **9. Features**
 
-- *Welcoming Modal Pop-up:* **PokeCards** opening page there is a welcome modal pop-up inviting the player to select their favorite character from the three main famous ones from Pokemon cartoon called *Misty, Brock and Ash* followed by the choice of three classic Pokemons: Charmander, Pikachu, and Squirtle. This modal is not a compulsory choice the player is allowed to select the "Let's Go" button straight away the intention of this modal is simply to attract Pokemon fans but not limit the game to them.
+- *Welcoming User Info Modal Pop-up:* **PokeCards** opening page there is a welcome modal pop-up inviting the player to select their favorite character from the three main famous ones from Pokemon cartoon called *Misty, Brock and Ash* followed by the choice of three classic Pokemons: Charmander, Pikachu, and Squirtle. This modal is not a compulsory choice the player is allowed to select the "Let's Go" button straight away the intention of this modal is simply to attract Pokemon fans but not limit the game to them.
 
 # ADD PRINT
 
 - *Score Board*: The single display of the game contributes to its clean interface providing a counter of moves, a score of matched cards, a timer and a reset button to restart the game.
 
+- *Reset Button*: For anytime the user fells like to restart the board and play again.
+
 # ADD PRINT
 
-- *Game panel and cards*: This panel has a friendly blue background with the 18 PokeCards displayed neatly. For PC the sequence of cards is provided in 3 horizontal rows of 6 cards. For others devices most of the cellphones for example are displayed in 6 horizontal rows of 3 cards, others squeezed versions will present the game with 9 horizontal rows of 2 cards. The majority of tablets will display the game in 4 horizontal rows which the first three ones will show 5 cards and the last one 3 only.
+- *Game board and cards*: This panel has a friendly blue background with the 18 PokeCards displayed neatly. For PC the sequence of cards is provided in 3 horizontal rows of 6 cards. For others devices most of the cellphones for example are displayed in 6 horizontal rows of 3 cards, others squeezed versions will present the game with 9 horizontal rows of 2 cards. The majority of tablets will display the game in 4 horizontal rows which the first three ones will show 5 cards and the last one 3 only.
 
 # ADD PRINT
 
@@ -244,9 +247,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - The images for the pokemon pick were sourced from [Pinterest](https://www.pinterest.ie/pin/351912457196612/), [Pinterest](https://www.pinterest.ie/pin/720364902878863673/)
 - The Champion image used was sourced from [Lukasthadeuart](https://www.deviantart.com/lukasthadeuart/art/Congratulations-Ash-V2-813484243).
-- Copyright for the memory card images belong to [EdwinSantander59](https://www.deviantart.com/edwinsantander59/) and [Plattyneko](https://www.deviantart.com/plattyneko).
-- The images used for the back of the memory cards, background wallpaper, and UserInfo Modal were obtained from [Google Images](https://www.google.com/imghp?hl=en) and strictly used for educational purposes.
-
+- The images for the memory card images was sourced from [EdwinSantander59](https://www.deviantart.com/edwinsantander59/) and [Plattyneko](https://www.deviantart.com/plattyneko).
+- The images used for the back of the memory cards, background wallpaper, some Cards,and UserInfo Modal were obtained from [Google Images](https://www.google.com/imghp?hl=en).
+- Copyright for the memory card images belong to [Pokemon](https://www.pokemon.com/us/) a [Nintendo](https://www.nintendo.com/) Game Franchise, and strictly used for educational purposes.
 
 #### Audio
 

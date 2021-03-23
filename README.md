@@ -133,21 +133,29 @@ The following wireframes were produced using Balsamiq program and it was develop
 
 - *Welcoming User Info Modal Pop-up:* **PokeCards** opening page there is a welcome modal pop-up inviting the player to select their favorite character from the three main famous ones from Pokemon cartoon called *Misty, Brock and Ash* followed by the choice of three classic Pokemons: Charmander, Pikachu, and Squirtle. This modal is not a compulsory choice the player is allowed to select the "Let's Go" button straight away the intention of this modal is simply to attract Pokemon fans but not limit the game to them.
 
-# ADD PRINT
+<div align="center">
+    <img src="https://i.ibb.co/XCd22WP/User-Info-Modal.jpg" alt="Screenshot: User Info Modal" >
+</div><br>
 
 - *Score Board*: The single display of the game contributes to its clean interface providing a counter of moves, a score of matched cards, a timer and a reset button to restart the game.
 
 - *Reset Button*: For anytime the user fells like to restart the board and play again.
 
-# ADD PRINT
+<div align="center">
+    <img src="https://i.ibb.co/QKK6cn1/Score-Board.jpg" alt="Screenshot: Reset Button" >
+</div><br>
 
 - *Game board and cards*: This panel has a friendly blue background with the 18 PokeCards displayed neatly. For PC the sequence of cards is provided in 3 horizontal rows of 6 cards. For others devices most of the cellphones for example are displayed in 6 horizontal rows of 3 cards, others squeezed versions will present the game with 9 horizontal rows of 2 cards. The majority of tablets will display the game in 4 horizontal rows which the first three ones will show 5 cards and the last one 3 only.
 
-# ADD PRINT
+<div align="center">
+    <img src="https://i.ibb.co/tPGPgFL/Game-Board.jpg" alt="Screenshot: Reset Button" >
+</div><br>
 
 - *Victory Modal Pop-up*: This victory pop-up will only appear if the player completes the game on time which is 300 hundred seconds. The image available on this modal is a classic and motivating one from the main character "Ash" holding a trophy with the Pokemon Pikachu behind congratulating the child to have "catch them all" referring to the Pokemons presented in the cards. This victory modal pop-up also provides a large yellow invitation button to play the game again.
+<div align="center">
+    <img src="https://i.ibb.co/N7sN9tx/WinModal.jpg" alt="Screenshot: Reset Button" >
+</div><br>
 
-# ADD PRINT
 
 ### **Technologies Used**
 

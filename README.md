@@ -10,8 +10,8 @@
     - [**Project Goals**](##project-goals)
     - [**Player goals**](##player-goals-are)
     - [**Developer Goals**](###developer-Goals)
-    - [**User Description**](###user-Description)
-    - [**Design Description**](###design-Description)
+    - [**User Stories**](###user-Stories)
+    - [**Design Stories**](###design-Stories)
     - [**Wireframes**](#wireframes)
 
   ---
@@ -78,7 +78,7 @@ The main goal of **PokeCards** is to provide a simple, fun and intuitive game to
 
 Neatly developed programming that helps children to increase their memory and spatial awareness through a fun and intuitive game. **PokeCards** was developed and tested to ensure that the game cannot be cracked by fast clicking in random areas for example. A professional appearance primarily accessing the world of JavaScript, HTML, and CSS. The developer also sees the project as a great opportunity to increase his portfolio.
 
-### **User Description**
+### **User Stories**
 
 As a player aged 5 years or more possible a Pokemon's fan, I wish:
 
@@ -188,7 +188,7 @@ The following validation services and linter were used to check the validity of 
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/) was used to validate CSS.
 - [JSHint](https://jshint.com/) was used to validate JavaScript.
 
-## Client stories testing
+## User stories testing
 
 The following segment is going via every of the consumer testimonies from the UX ReadMe segment.
 
@@ -231,7 +231,7 @@ All steps on desktop had been repeated in browsers: Firefox, Chrome and Edge and
     - Closed the web page with best one of the  fields stuffed out, showed that on reloading the participant data modal remains released.
     - Confirmed that the modal will now no longer near and indicators are given to manual the participant to fill out each fields. 
     - Chose call and pokemon from the three choices, closed the modal with out hitting submit, showed that the modal is released once more on reloading the web page. 
-    - Hovered my mouse over every factor of the participant data modal to test that every one the applicable descriptions for display screen readers had been displaying up. 
+    - Hovered my mouse over every factor of the participant data modal to test that every one the applicable Stories for display screen readers had been displaying up. 
 
 2. Scoreboard
     1. Player info display
@@ -465,7 +465,7 @@ After the conclusion of the main structure of the project the validation process
 
 ## Target Audience Testing
 
-In this section, it will be analyzed the expected wishes raised in the User Description presented in the README file for this project.
+In this section, it will be analyzed the expected wishes raised in the User Stories presented in the README file for this project.
 
 1. The possibility to quickly find and comprehend the controls for the game, to easily operate it.
 

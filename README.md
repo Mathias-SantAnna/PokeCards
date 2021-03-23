@@ -493,6 +493,6 @@ In this section, it will be analyzed the expected wishes raised in the User Desc
 
 5. Helpful audio feedback to indicate that I completed a stage in the game.
 
-- A "bell" sound is played for a random appearance of cards and a "happier" sound is played when a correspondent match card is flipped. This sound feedback was extensively tested to check if it was any possible delays. But it was working according to programmed.
+- A "bell" sound is played for a random appearance of cards and a "happier" sound is played when a correspondent match card is flipped. This sound feedback was extensively tested to check if there was any possible delays. But it was working according to programmed.
 
 - The button's sounds are also very helpful to indicate a right move. It is also working fine.

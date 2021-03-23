@@ -87,7 +87,37 @@ header {
 .front-face {
     transform: rotateY(180deg);}
 
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    background-color: hsla(210, 86%, 46%, 0.75);
+    padding: 7px 15px;
+    margin-top: 6%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: inherit;
+}
 
+.footer a {
+    color: #fff;
+}
+
+.footer p {
+    color: #fff;
+    margin-top: 5px;
+    font-family: 'Montserrat';
+}
+.footer a:hover {
+    color: #55ccff;
+    transition: all 0.2s ease-in-out 0.2s;
+    -moz-transition: all 0.2s ease-in-out 0.2s;
+    -webkit-transition: all 0.2s ease-in-out 0.2s;
+}
 /* --- MODAL --- */
 #WinModal {
     justify-content: center;

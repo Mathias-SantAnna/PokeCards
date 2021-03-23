@@ -325,6 +325,17 @@ function unflipCards() {
         resetBoard();
     }, 1200);
 }
+```
+
+- Double click. In case that clicks too fast on the same card, in this case is match is evaluate true and disable the cards by removing the event listener.
+  - Fix: Add a condition to beggining of flipcard function, and set resetBoard function as it set flippedCard, lockBoard to false and to set first,second card to null. As FlipCard function from above.
+
+```javascript
+  function resetBoard() {
+    [hasFlippedCard, lockBoard] = [false, false];
+    [firstCard, secondCard] = [null, null];
+}
+```
 
 #### Unsolved bugs
 

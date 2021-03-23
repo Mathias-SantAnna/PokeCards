@@ -178,9 +178,43 @@ The following wireframes were produced using Balsamiq program and it was develop
 
 ## Testing
 
-This project provides an appendix detailing the testing process of **PokeCards**. To access it click in the link below
+## Automated Testing
 
-# ADD LINK
+### Validation services
+The following validation services and linter were used to check the validity of the website code.
+- [W3C Markup Validation]( https://validator.w3.org/) was used to validate HTML.
+- [W3C CSS validation](https://jigsaw.w3.org/css-validator/) was used to validate CSS.
+- [JSHint](https://jshint.com/) was used to validate JavaScript.
+
+## Client stories testing
+
+The following segment is going via every of the consumer testimonies from the UX ReadMe segment.
+
+**As a player, I want:**
+
+1. **The capacity to without problems discover and recognize the controls for the game, in order that I can perform them without problems.**
+
+    - All the controls are withinside the dashboard, that is at the left facet of the display on medium to huge devices, and on the pinnacle of the display on mobiles. 
+    - All the controls depend upon symbols and colors earlier than any phrases to talk their purpose. 
+    - The start and reset buttons use traditional icons to indicate their meaning.
+2. **Audio and/or visible comments after I play the game, in order that I realize after I have clicked or now no longer clicked something.**
+
+    - When every button on the game is pressed there may be a visible queue that it's been clicked in addition to a clicking audio report that performs too.
+    - When a card is clicked first to offer the impact of being pressed down, then it flips over with a fulfilling animation and card flipping sound.
+3. **Positive audio remarks once I entire a step withinside the recreation (as an example once I discover a matching pair of cards), due to the fact this will increase my leisure from playing.**
+
+    - A “bing” sound is performed whilst a accurate healthy is found, applause and cheering is heard whilst a recreation has been completed.
+
+4. **Visual icons and pix that I recognise, in order that I recognize once I have done some thing withinside the recreation. For instance stars out of five, and a trophy for excessive rating.**
+
+    - Win modals show the participant’s Score and a trophy is likewise proven when the participant win the game.
+
+5. **A game that might not spoil as I use it**
+
+    - It has been programmed with the manner a infant could use it in mind.
+        - When deciding on playing cards to match, no extra than 2 playing cards may be decided on at one time. 
+        - The game can't be damaged when the user clicks the cards very speedy to turn extra than 2 over at a time.
+        - It will now no longer create bizarre presentations if the sport is reset at sudden times. For instance whilst an peculiar wide variety of playing cards are flipped over.
 
 ## Deployment
 

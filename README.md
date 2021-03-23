@@ -142,7 +142,7 @@ The following wireframes were produced using Balsamiq program and it was develop
 
 ### **Features**
 
-<p align="justify">- *Welcoming User Info Modal Pop-up:* <strong>PokeCards</strong> opening page there is a welcome modal pop-up inviting the player to select their favorite character from the three main famous ones from Pokemon cartoon called *Misty, Brock and Ash* followed by the choice of three classic Pokemons: Charmander, Pikachu, and Squirtle. This modal is not a compulsory choice the player is allowed to select the "Let's Go" button straight away the intention of this modal is simply to attract Pokemon fans but not limit the game to them.</p>
+- <p align="justify"><strong>Welcoming User Info Modal Pop-up: </strong> <strong>PokeCards</strong> opening page there is a welcome modal pop-up inviting the player to select their favorite character from the three main famous ones from Pokemon cartoon called *Misty, Brock and Ash* followed by the choice of three classic Pokemons: Charmander, Pikachu, and Squirtle. This modal is not a compulsory choice the player is allowed to select the "Let's Go" button straight away the intention of this modal is simply to attract Pokemon fans but not limit the game to them.</p>
 
 <div align="center">
     <img src="https://i.ibb.co/ZxLhdMN/User-Info-Modal.jpg" alt="Screenshot: User Info Modal" >
@@ -156,13 +156,13 @@ The following wireframes were produced using Balsamiq program and it was develop
     <img src="https://i.ibb.co/jTvGb1j/Scoreboard.jpg" alt="Screenshot: Reset Button" >
 </div><br>
 
-<p align="justify">- *Game board and cards*: This panel has a friendly blue background with the 18 PokeCards displayed neatly. For PC the sequence of cards is provided in 3 horizontal rows of 6 cards. For others devices most of the cellphones for example are displayed in 6 horizontal rows of 3 cards, others squeezed versions will present the game with 9 horizontal rows of 2 cards. The majority of tablets will display the game in 4 horizontal rows which the first three ones will show 5 cards and the last one 3 only.<p>
+- <p align="justify"> <strong>Game board and cards</strong>: This panel has a friendly blue background with the 18 PokeCards displayed neatly. For PC the sequence of cards is provided in 3 horizontal rows of 6 cards. For others devices most of the cellphones for example are displayed in 6 horizontal rows of 3 cards, others squeezed versions will present the game with 9 horizontal rows of 2 cards. The majority of tablets will display the game in 4 horizontal rows which the first three ones will show 5 cards and the last one 3 only.<p>
 
 <div align="center">
     <img src="https://i.ibb.co/rtM8Pwq/Game-Board.jpg" alt="Screenshot: Reset Button" >
 </div><br>
 
-<p align="justify">- *Victory Modal Pop-up*: This victory pop-up will only appear if the player completes the game on time which is 300 hundred seconds. The image available on this modal is a classic and motivating one from the main character "Ash" holding a trophy with the Pokemon Pikachu behind congratulating the child to have "catch them all" referring to the Pokemons presented in the cards. This victory modal pop-up also provides a large yellow invitation button to play the game again.</p>
+- <p align="justify"><strong>Victory Modal Pop-up:</strong> This victory pop-up will only appear if the player completes the game on time which is 300 hundred seconds. The image available on this modal is a classic and motivating one from the main character "Ash" holding a trophy with the Pokemon Pikachu behind congratulating the child to have "catch them all" referring to the Pokemons presented in the cards. This victory modal pop-up also provides a large yellow invitation button to play the game again.</p>
 
 <div align="center">
     <img src="https://i.ibb.co/TtR60VG/WinModal.jpg" alt="Screenshot: Reset Button" >
@@ -466,8 +466,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - My Mentor for continuous helpful feedback.
 
-<p align="justify">Antonio Rodriguez has mentored this project since the beginning. It was only possible to conclude it because of his support and advice. His main contributions were giving an initial North so that it was possible to start effectively, providing ideas, demonstrating the technical criteria and pointing out proper feedback on the errors that should be corrected.  In other words, his assistance was essential for the success of this project, so, I am taking the opportunity to express my gratitude for each mentoring session that enabled the competition this work.</p>
+    <p align="justify">Antonio Rodriguez has mentored this project since the beginning. It was only possible to conclude it because of his support and advice. His main contributions were giving an initial North so that it was possible to start effectively, providing ideas, demonstrating the technical criteria and pointing out proper feedback on the errors that should be corrected.  In other words, his assistance was essential for the success of this project, so, I am taking the opportunity to express my gratitude for each mentoring session that enabled the competition this work.</p>
 
 - Tutor support at Code Institute for their support.
 
-- Fellow friends, that helped me throughout the project as [Fabio Araujo](https://github.com/fabioaraujo76 ), and Vini Xavier.
+- Fellow friends, that helped me throughout the project as [Fabio Araujo](https://github.com/fabioaraujo76 ), and [Vinicius Xavier](https://github.com/viniciusxavier77).

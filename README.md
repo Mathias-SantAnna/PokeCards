@@ -4,16 +4,16 @@
 
 1. [**PokeCards - The Memory Card Game**](#pokecards)
     - [**Project Goals**](##project-goals)
-    - [**Players Goals**](###players-goals-are-:)
+    - [**Player goals**](##player-goals-are)
     - [**Developer Goals**](###developer-Goals)
     - [**User Description**](###user-Description)
     - [**Design Description**](###design-Description)
 
   ---
 
-2. [**Features**](###9.-Features)
+2. - [**Features**](###9.-Features)
     - *Welcoming Modal Pop-up*
-    - *Dashboard*
+    - *Score Board*
     - *Game Panel and Cards*
     - *Victory Modal Pop-up*
 
@@ -24,11 +24,13 @@
 ---
 
 4. [**Testing**](##testing)
+
 ---
 
 5. [**Deployment**](##deployment)
     - [**GitHub Pages**](###github-Pages)  
     - [**Making a Local Clone**](###making-a-local-clone)
+
 ---
 
 6. [**Credits**](##credits)
@@ -42,15 +44,13 @@
 
 ## The Memory Game
 
-**PokeCards** is an interactive and enjoyable memory card game created for children from 5 years old. The game includes entertaining sounds with attractive gift cards and a friendly interface very easy to operate. The opening selection of the characters *Misty, Brock and Ash* and Pokemons (Charmander, Pikachu, and Squirtle) refers to the main script of the cartoon Pokemon engaging, even more, its fans.
+**PokeCards** is an interactive and enjoyable memory card game created for children from 5 years old. The game includes entertaining sounds with attractive gif cards and a friendly interface very easy to operate. The opening selection of the characters *Misty, Brock and Ash* and Pokemons (Charmander, Pikachu, and Squirtle) refers to the main script of the cartoon Pokemon engaging, even more, its fans.
 
 ## **Project Goals**
 
 The main goal of **PokeCards** is to provide a simple, fun and intuitive game to contribute to children's entertainment and its development. **PokeCards** target audience is children from 5 years old and Pokemon's fans. Even though **PokeCards** was primarily built for children it also considered the parental involvement and participation helping the child to initiate and use the game. Because the game was developed to improve and develop children's memory and spatial ability it is clear that the game is also meeting the parents goals.
 
-[**Table of Contents**](#table-of-contents)
-
-### **Players Goals are :**
+### **Players Goals are**
 
 - Enjoyable game to play.
 - Friendly interface to use.
@@ -69,8 +69,6 @@ The main goal of **PokeCards** is to provide a simple, fun and intuitive game to
 - The overall construction of PokeCards is children-friendly.
 - Optically appealling and fully-functioning game.
 
-[**Table of Contents**](#table-of-contents)
-
 ### **Developer Goals**
 
 Neatly developed programming that helps children to increase their memory and spatial awareness through a fun and intuitive game. **PokeCards** was developed and tested to ensure that the game cannot be cracked by fast clicking in random areas for example. A professional appearance primarily accessing the world of JavaScript, HTML, and CSS. The developer also sees the project as a great opportunity to increase his portfolio.
@@ -84,8 +82,6 @@ As a player aged 5 years or more possible a Pokemon's fan, I wish:
 - Audio or visual response while playing the game, so I can associate each move to an action understanding when I clicked something or when I have matched my cards.
 - The chance to find my favorite characters and Pokemons so I can engage the game.
 - Helpful audio feedback to indicate that I completed a stage in the game.
-
-[**Table of Contents**](#table-of-contents)
 
 ### **Design Description**
 
@@ -115,22 +111,22 @@ Cards and chart boxes were drawn with round corners to bring a soft and friendly
 
 - The congratulation's pop-up also at the completion of the game provides a very appropriate image from the main character "Ash" holding a trophy.
 
+
 **6. Card Images**
 
 The quality of the gif cards was highly considered in this project to amuse the Pokemon fans providing a stunning presentation of the game with shining cards. There is a great mix of Pokemons composing the cards bringing a variety of Pokemon species to attract the children.
 
 **7. Audio Directory**
 
-**PokeCards** is directed by animated audios to indicate if the move was a match of cards or a random flip of them facilitating children's to operate the game. A nice and fun audio is added into the clicking buttons to signal the navegation to the children. There is also an audio for when the time is up and the game over warning comes up. The victory audio is also available motivating the player to keep practicing their memory skills with the game.
+**PokeCards** is directed by animated audios to indicate if the move was a match of cards or a random flip of them facilitating children's to operate the game. A nice and fun audio is added into the clicking buttons to signal the navigation to the children. There is also an audio for when the time is up and the game over warning comes up. The victory audio is also available motivating the player to keep practicing their memory skills with the game.
 
 **8. Wireframes**
 
 The following wireframes were produced using Balsamiq program and it was developed in the planning phase of this project.
 
--
--
--
-[**Table of Contents**](#table-of-contents)
+- [Wireframe Laptop Screen](https://i.ibb.co/Fm6QQMV/Wireframe-Laptop.jpg)
+- [Wireframe Tablet & Mobile](https://i.ibb.co/Z2QgXks/Wireframe-Tablet.jpg)
+- [Wireframe Victory Modal](https://i.ibb.co/z7s8MDR/Wireframe-Tablet-Victory-Modal.jpg)
 
 ### **9. Features**
 
@@ -138,19 +134,17 @@ The following wireframes were produced using Balsamiq program and it was develop
 
 # ADD PRINT
 
-- *Dashboard*: The single display of the game contributes to its clean interface providing a counter of moves, a score of matched cards, a timer and a reset button to restart the game.
+- *Score Board*: The single display of the game contributes to its clean interface providing a counter of moves, a score of matched cards, a timer and a reset button to restart the game.
 
 # ADD PRINT
 
-- *Game panel and cards*: This panel has a friendly blue background with the 18 PokeCards displayed neatly. For PC the sequence of cards is provided in 3 horizontal rows of 6 cards. For others devices most of the cellphones for example are displayed in 6 horizontal rows of 3 cards, others squized versions will present the game with 9 horizontal rows of 2 cards. The majority of tablets will display the game in 4 horizontal rows which the first three ones will show 5 cards and the last one 3 only.
+- *Game panel and cards*: This panel has a friendly blue background with the 18 PokeCards displayed neatly. For PC the sequence of cards is provided in 3 horizontal rows of 6 cards. For others devices most of the cellphones for example are displayed in 6 horizontal rows of 3 cards, others squeezed versions will present the game with 9 horizontal rows of 2 cards. The majority of tablets will display the game in 4 horizontal rows which the first three ones will show 5 cards and the last one 3 only.
 
 # ADD PRINT
 
 - *Victory Modal Pop-up*: This victory pop-up will only appear if the player completes the game on time which is 300 hundred seconds. The image available on this modal is a classic and motivating one from the main character "Ash" holding a trophy with the Pokemon Pikachu behind congratulating the child to have "catch them all" referring to the Pokemons presented in the cards. This victory modal pop-up also provides a large yellow invitation button to play the game again.
 
 # ADD PRINT
-
-[**Table of Contents**](#table-of-contents)
 
 ### **Technologies Used**
 
@@ -164,7 +158,7 @@ The following wireframes were produced using Balsamiq program and it was develop
 
 - **Google Fonts:**  All the font styles used in this project was provided by Google Fonts.
 
-- **Canva**: this project uses this tool on its images searching, editing, croping and saving them.  [Canva](https://www.canva.com/pt_pt/)
+- **Canva**: this project uses this tool on its images searching, editing, cropping and saving them.  [Canva](https://www.canva.com/pt_pt/)
 
 ## Testing
 
@@ -193,8 +187,6 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 
 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
-
-[**Table of Contents**](#table-of-contents)
 
 ### **Making a Local Clone**
 
@@ -229,8 +221,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
-[**Table of Contents**](#table-of-contents)
-
 ### Code
 
 - The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
@@ -243,7 +233,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Content
 
-- All content was written by the developer or from it's client source @ Talita Canoni.
+- All content that wasn't credit was written by the developer or from it's mentor.
 
 ### Acknowledgements
 
@@ -253,6 +243,48 @@ Antonio Rodriguez has mentored this project since the beginning. It was only pos
 
 - Tutor support at Code Institute for their support.
 
- They provided regularly points new contributors to documentation and submits pull requests to improve the guidance when the area were looking unclear. Answering my requests on time enabling me to improve my knowledge during the whole process of contributing smoother.
+ They provided regularly point new contributors to documentation and submits pull requests to improve the guidance when the area was looking unclear. Answering my requests on time enabling me to improve my knowledge during the whole process of contributing smoother.
 
- [**Table of Contents**](#table-of-contents)
+# Testing Process
+
+After the conclusion of the main structure of the project the validation process started. To check the acceptance of the website code the following systems were used:
+
+1. W3C Markup Validation for HTML
+
+2. W3C CSS Validation for CSS
+
+3. JSHint for JavaScript
+
+## Target Audience Testing
+
+In this section, it will be analyzed the expected wishes raised in the User Description presented in the README file for this project.
+
+1. The possibility to quickly find and comprehend the controls for the game, to easily operate it.
+
+- The possibility of the player select the "Let's Go!" button straight away not necessarily picking any character or Pokemon is the proof of accessibility of the game. This initial stage of the game was tested many times to ensure that any selection of character and Pokemon or either the skip option of this section will not influence the performance of the game. No glitches were found.
+
+- The Score Board is clean and neat bringing functionality to the game. The timer was tested many times to ascertain how many seconds the target audience needed to complete the game and also if it was working fine showing the proposed game over warning message.
+
+- The interface as a whole is achieving its purpose of communicating with the children and engaging them into the thematic world of **PokeCards**.
+
+2. Attractive and large buttons that are easy to be used on any device.
+
+- The large and colorful buttons to start or restart the game are easy and attractive captivating children's attention. All buttons were tested on all devices, it is working fine.
+
+3. Audio or visual response while playing the game, so I can associate each move to an action understanding when I clicked something or when I have matched my cards.
+
+- The audios' choice was picked based on Pokemon's soundtrack. A full checking of each click and each flip of the card was performed passing the test.
+
+- The audio evaluation was run as well for the victory and game-over sounds. It is perfectly feasible.
+
+4. The chance to find my favorite characters and Pokemons so I can engage the game.
+
+- All the pokecards presented in the game are very alluring with a good range of Pokemons.
+
+- The speed to flip each card was tested. The whole performance of the game is developed under the Pokemon's cartoon pleasing its fans.
+
+5. Helpful audio feedback to indicate that I completed a stage in the game.
+
+- A "bell" sound is played for a random appearance of cards and a "happier" sound is played when a correspondent match card is flipped. This sound feedback was extensively tested to check if it was any possible delays. But it was working according to programmed.
+
+- The button's sounds are also very helpful to indicate a right move. It is also working fine.

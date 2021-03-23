@@ -336,6 +336,7 @@ function flipCard() {
     moveCounter = moveCounter + 1;
     document.getElementById('moves').innerHTML = 'Moves: ' + moveCounter;   
 }
+
 function unflipCards() {
     lockBoard = true;
 

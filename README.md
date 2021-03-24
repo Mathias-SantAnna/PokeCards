@@ -13,12 +13,12 @@
 ---
 
 1. [**User Experience - UX**](#pokecards)
-    - [**Project Goals**](##project-goals)
-    - [**Player goals**](##player-goals-are)
-    - [**Developer Goals**](###developer-Goals)
-    - [**User Stories**](###User-Stories)
-    - [**Design Description**](###design-Description)
-    - [**Wireframes**](###wireframes)
+    - [**Project Goals**](#project-goals)
+    - [**Player goals**](#player-goals-are)
+    - [**Developer Goals**](#developer-Goals)
+    - [**User Stories**](#User-Stories)
+    - [**Design Description**](#design-Description)
+    - [**Wireframes**](#wireframes)
 
   ---
 

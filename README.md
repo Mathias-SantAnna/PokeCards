@@ -22,7 +22,7 @@
 
   ---
 
-2. [**Features**](##Features)
+2. [**Features**](#Features)
     - *Welcoming Modal Pop-up*
     - *Score Board*
     - *Game Panel and Cards*
@@ -30,24 +30,24 @@
 
 ---
 
-3. [**Technologies used**](###technologies-used)
+3. [**Technologies used**](#technologies-used)
 
 ---
 
-4. [**Testing**](##testing)
+4. [**Testing**](#testing)
 
 ---
 
-5. [**Deployment**](##deployment)
-    - [**GitHub Pages**](###github-Pages)  
-    - [**Making a Local Clone**](###making-a-local-clone)
+5. [**Deployment**](#deployment)
+    - [**GitHub Pages**](#github-Pages)  
+    - [**Making a Local Clone**](#making-a-local-clone)
 
 ---
 
-6. [**Credits**](##credits)
-    - [**Content**](###content)
-    - [**Code**](###code)
-    - [**Acknowledgements**](###acknowledgements)
+6. [**Credits**](#credits)
+    - [**Content**](#content)
+    - [**Code**](#code)
+    - [**Acknowledgements**](#acknowledgements)
 
 ---
 

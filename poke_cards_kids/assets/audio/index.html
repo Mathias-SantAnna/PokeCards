@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>PokeCards</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-9" id="logo">
+                    <img src="assets/images/PokeCardsTitle.png" alt="Logo">
+                </div>
+                <div class="col-3 score">
+                    <span id="moves">Moves: </span>
+                    <br>
+                    <span id="score">Score: </span>
+                    <br>
+                    <span id="time-remaining">Timer: </span> 
+                    <br>
+                    <button class="btn reset-btn">RESET</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+   <!-- GAME BOARD -->
+    <section>
+        <div class="container board-container">
+            <div class="board-game"> <!--also known as memory-game-->  
+                <div class="memory-card" data-framework="Card1">
+                    <img class="front-face" src="assets/images/Card1.png" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+
+                </div>
+                <div class="memory-card" data-framework="Card1">
+                    <img class="front-face" src="assets/images/Card1.png" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+                </div>
+                <div class="memory-card" data-framework="Card2">
+                    <img class="front-face" src="assets/images/Card2.gif" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+                </div>
+                <div class="memory-card" data-framework="Card2">
+                    <img class="front-face" src="assets/images/Card2.gif" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+                </div>
+                <div class="memory-card" data-framework="Card3">
+                    <img class="front-face" src="assets/images/Card3.gif" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+                </div>
+                <div class="memory-card" data-framework="Card3">
+                    <img class="front-face" src="assets/images/Card3.gif" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+                </div>
+                <div class="memory-card" data-framework="Card4">
+                    <img class="front-face" src="assets/images/Card4.png" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+                </div>
+                <div class="memory-card" data-framework="Card4">
+                    <img class="front-face" src="assets/images/Card4.png" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+                </div>
+                <div class="memory-card" data-framework="Card5">
+                    <img class="front-face" src="assets/images/Card5.png" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+                </div>
+                <div class="memory-card" data-framework="Card5">
+                    <img class="front-face" src="assets/images/Card5.png" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+                </div>
+                <div class="memory-card" data-framework="Card6">
+                    <img class="front-face" src="assets/images/Card6.png" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+                </div>
+                <div class="memory-card" data-framework="Card6">
+                    <img class="front-face" src="assets/images/Card6.png" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+                </div>
+                <div class="memory-card" data-framework="Card7">
+                    <img class="front-face" src="assets/images/Card7.png" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+                </div>
+                <div class="memory-card" data-framework="Card7">
+                    <img class="front-face" src="assets/images/Card7.png" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+                </div>
+                <div class="memory-card" data-framework="Card8">
+                    <img class="front-face" src="assets/images/Card8.gif" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+                </div>
+                <div class="memory-card" data-framework="Card8">
+                    <img class="front-face" src="assets/images/Card8.gif" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+                </div>
+                <div class="memory-card" data-framework="Card9">
+                    <img class="front-face" src="assets/images/Card9.gif" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+                </div>
+                <div class="memory-card" data-framework="Card9">
+                    <img class="front-face" src="assets/images/Card9.gif" alt="PocketMonster">
+                    <img class="back-face" src="assets/images/CardBack.jpg" alt="Pokeball Wallpaper">
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <!--  USER-INFO MODAL  -->
+    <div class="modal fade" id="userInfoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+                <div class="modal-body info-modal-background background-cover-center">
+                    <form class="userInfoModalForm">
+                        <div class="col-12 info-title" >
+                            <!-- <h3 class="modal-title">WELCOME to 
+                              <br> POKE CARDS!</h3> -->
+                            <img id="modal-logo" src="assets/images/PokeCardsModalT.png" alt="PokeCards Logo">
+                        </div>
+                        <div class="col-12 info-heading">
+                            <p class="modal-heading">Who are you?</p>
+                        </div>
+                        <div class="row form-group text-center">
+                            <div class="col-4 text-right selection-button p-0">
+                                <label id="Misty" class="username" style="cursor: pointer;">Misty</label>
+                            </div>
+                            <div class="col-4 text-center selection-button p-0">
+                                <label id="Ash" class="username"  style="cursor: pointer;">Ash </label>
+                            </div>
+                            <div class="col-4 text-left selection-button p-0">
+                                <label id="Brock" class="username"  style="cursor: pointer;">Brock</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 info-heading">
+                                <p class="modal-heading">Choose your POKEMON</p>
+                            </div>
+                        </div>
+                        <div class="row info-box py-1 my-2">
+                            <label class="col-4 text-right selection-button my-2 p-0">
+
+                                <img src="assets/images/CharmanderB.jpg" data-name="Charmander" class="radio background-cover-center pokemonOption" alt="Fire Pokemon illustration" />
+                            </label>
+                            <label class="col-4 text-center selection-button my-2 p-0">
+                                
+                                <img src="assets/images/PikachuA.jpg" data-name="Pikachu"  class="radio background-cover-center pokemonOption" alt="Pikachu illustration" />
+                            </label>
+                            <label class="col-4 text-left selection-button my-2 p-0">
+                                
+                                <img src="assets/images/SquirtleA.jpg" data-name="Squirtle"  class="radio background-cover-center pokemonOption" alt="Water Pokemon illustration" />
+                            </label>
+                        </div>
+                        <button id="user-info-submit-button" type="button" class="btn modal-btn justify-center content-center" aria-label="Submit Button" data-dismiss="modal"> Let's GO!
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WIN MODAL -->
+    <div class="modal fade" id="WinModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content info-modal-background background-cover-center">
+                <div class="modal-header info-title">
+                    <h3 class="modal-title">Awesome! You've got them all!</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+            <div class="modal-body ">
+                <img class="WinModal" src="assets/images/AshChampion.png" alt="Ash Champion">
+            </div>
+            <div class="Win-Score">
+                <span id="win-moves">Moves: </span>
+                <span id="win-time">Timer: </span> 
+            </div>
+            <div class="modal-footer">
+                <button class="btn play-again-btn modal-btn justify-center content-center">Play Again?</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="social mb-3">
+            <p>Copyright &copy; 2021 - Mathias Sant'Anna  <a class="github-icon" href="https://github.com/Mathias-SantAnna" target="_blank" aria-label="Find me on GitHub" rel="noopener"><i class="fab fa-github-alt fa-lg fa-2x"></i></a></p>
+            
+        </div>
+        
+    </footer>
+    
+    <!-- AUDIO FILES -->
+    <audio id="FlipAudio" src="./assets/audio/flip-card.mp3"></audio>
+    <audio id="MatchAudio" src="./assets/audio/matched.mp3"></audio>
+    <audio id="VictoryAudio" src="./assets/audio/victory.mp3"></audio>
+    <audio id="GameOverAudio" src="./assets/audio/game-over.wav"></audio>
+    <audio id="ButtonClick" src="./assets/audio/button-click.wav"></audio>
+
+    <!-- SCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+    
+</body>
+</html>

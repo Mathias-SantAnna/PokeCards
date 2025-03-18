@@ -62,12 +62,20 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-flutter:
   assets:
     - assets/images/pikachu.png
-    - assets/fruits/apple.png
-    - assets/fruits/banana.png
-    - assets/audio/pikachu.mp3
+    - assets/fruits/GoldenRazzBerry.png
+    - assets/fruits/NanabBerry.png
+    - assets/fruits/RazzBerry.png
+    - assets/fruits/PinapBerry.png
+    - assets/audio/pikachu-pikapi.mp3
+    - assets/audio/pikachu-long.mp3
+    - assets/audio/pikachu-laughing.mp3
+    - assets/audio/pikachu-pika-pika.mp3
+    - assets/audio/pikachu-cute-short.mp3
+    - assets/audio/bulbasaur.mp3
+    - assets/audio/squirtle.mp3
+    - assets/audio/charmander.mp3
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

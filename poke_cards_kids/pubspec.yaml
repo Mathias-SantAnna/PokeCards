@@ -30,9 +30,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  audioplayers: ^5.1.0
+  audioplayers: ^4.1.0
   provider: ^6.1.0
-  flutter_card_swiper: ^7.0.0 # Replace flutter_swipe_cards
+  flutter_card_swiper: ^7.0.0
 
 
 
